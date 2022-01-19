@@ -1,0 +1,112 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu/gui/uncloudedstarfield.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1387
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu/gui/bg_menu.png
+  orientation = top-centered
+  x = -320
+  width = 642
+  action = addtexture
+  actionid = 17218d36-a78a-427f-86d3-b6f4bd7482231642201529179
+  y = 0
+  height = 708
+}
+
+customization {
+  path = fancymenu/gui/uncloudedlogo.png
+  orientation = top-centered
+  x = -311
+  width = 725
+  action = addtexture
+  actionid = 9c0f4b41-4def-489b-99da-8d8164c939a51642201284264
+  y = 74
+  height = 725
+}
+
+customization {
+  showname = true
+  orientation = top-centered
+  crouching = false
+  x = -13
+  slim = false
+  actionid = 4b86c3e1-35f3-4dd9-9fcb-a9a76bfa2fa11642201768963
+  action = addentity
+  y = 147
+  scale = 30
+  parrot = false
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Use code 'Unabridged' for 25% off new servers!
+  x = -223
+  width = 150
+  actionid = dedf983a-fafd-4631-afbb-173b12b00c941642201903006
+  action = addbutton
+  y = -166
+  backgroundnormal = fancymenu\gui\horizontal_dark_text.png
+  value = https://www.bisecthosting.com/unabridged
+  height = 150
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu\icons\discord_hover.png
+  label = discord
+  loopbackgroundanimations = true
+  x = 31
+  width = 45
+  actionid = a8aae72a-7034-448f-aed6-681980cf687a1642203124626
+  action = addbutton
+  y = -57
+  backgroundnormal = fancymenu\icons\discord_dark.png
+  value = https://discord.com/invite/wV3jFx7F2e
+  height = 45
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu\icons\github_hover.png
+  label = github
+  loopbackgroundanimations = true
+  x = -77
+  width = 45
+  actionid = a47d547e-27e0-4c9f-939a-ea7e6e9ca9c51642204154666
+  action = addbutton
+  y = -56
+  backgroundnormal = fancymenu\icons\github_dark.png
+  value = https://github.com/BBoldt/Unclouded
+  height = 45
+}
+
