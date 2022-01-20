@@ -24,7 +24,7 @@
 	# The percent chance of the Gatekeeper's house generating.
 	# Default: 75
 	#Range: 0 ~ 100
-	gatekeeper_house_chance = 75
+	gatekeeper_house_chance = 50
 
 ["Mod Compatibility"]
 	#

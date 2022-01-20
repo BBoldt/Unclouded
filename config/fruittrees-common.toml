@@ -8,9 +8,9 @@ fruitDropModeMultiplayer = "ONE_BY_ONE"
 oakLeavesDropsAppleSapling = 0.20000000298023224
 worldGen = true
 #Range: 2 ~ 10000
-treesGenChunksInPlains = 500
+treesGenChunksInPlains = 400
 #Range: 2 ~ 10000
-treesGenChunksInForest = 200
+treesGenChunksInForest = 150
 #Range: 2 ~ 10000
 treesGenChunksInJungle = 10
 

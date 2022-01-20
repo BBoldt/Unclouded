@@ -11,5 +11,5 @@
 	#If this is true (and we are not overriding blocks), and a block tries to get healed but something is in the way, then that block will drop as an itemstack on the ground
 	DropBlockConflict = true
 	#If this is true, only creeper explosions are healed.  Otherwise, all explosions will be healed (TNT, stuff from other mods, etc)
-	OnlyCreepers = true
+	OnlyCreepers = false
 

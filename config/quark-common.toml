@@ -467,7 +467,7 @@
 	"Fairy Rings" = true
 	Corundum = true
 	"Chorus Vegetation" = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Big Stone Clusters" = true
 	"Big Dungeon" = true
 

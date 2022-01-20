@@ -4,7 +4,7 @@ spawnChance = 0.5
 maxPerPlayer = 8
 enableDrops = true
 #Should tumbleweeds destroy crops they touch.
-damageCrops = true
+damageCrops = false
 #Drop items only when destroyed by player (normally also drops on lava and cactus damage, for example).
 dropOnlyByPlayer = false
 #These items will drop from a tumbleweed upon destroying.

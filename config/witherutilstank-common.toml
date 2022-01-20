@@ -2,14 +2,14 @@
 [General]
 	#The amount of Fluid the Basic Tank can Hold in Bucket Size. 16 Buckets is Standard.
 	#Range: 0 ~ 64
-	tankBasicCapacity = 8
+	tankBasicCapacity = 4
 	#The amount of Fluid the Normal Tank can Hold in Bucket Size. 16 Buckets is Standard.
 	#Range: 0 ~ 64
-	tankNormalCapacity = 16
+	tankNormalCapacity = 8
 	#The amount of Fluid the Advanced Tank can Hold in Bucket Size. 16 Buckets is Standard.
 	#Range: 0 ~ 64
-	tankAdvancedCapacity = 32
+	tankAdvancedCapacity = 16
 	#The amount of Fluid the Ultra Tank can Hold in Bucket Size. 16 Buckets is Standard.
 	#Range: 0 ~ 64
-	tankUltraCapacity = 64
+	tankUltraCapacity = 32
 

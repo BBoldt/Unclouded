@@ -23,6 +23,4 @@
 	netherPyramidAverageChunkDistance = 37
 	#Range: 1 ~ 1001
 	pyramidEndAverageChunkDistance = 68
-	#Range: 1 ~ 1001
-	pyramidDarkForestAverageChunkDistance = 44
 

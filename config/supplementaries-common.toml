@@ -236,10 +236,10 @@
 			enabled = true
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 100
-			attempts_per_patch = 4
+			attempts_per_patch = 2
 			#Spawn attempts per chunk. Increases spawn frequency
 			#Range: 0 ~ 100
-			spawn_attempts = 7
+			spawn_attempts = 4
 			#Biomes in which urns won't spawn
 			biome_blacklist = ["minecraft:lush_caves", "minecraft:dripstone_caves"]
 
