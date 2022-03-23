@@ -293,6 +293,14 @@
 	gobberEndArmorHealthPerks = true
 	#Enable/disable Gobber Dragon Armor health perks
 	gobberDragonArmorHealthPerks = true
+	#Enable/disable Gobber Armor auto feeding
+	gobberArmorAutofeed = true
+	#Enable/disable Gobber Nether Armor auto feeding
+	gobberNetherArmorAutofeed = true
+	#Enable/disable Gobber End Armor auto feeding
+	gobberEndArmorAutofeed = true
+	#Enable/disable Gobber Dragon Armor auto feeding
+	gobberDragonArmorAutofeed = true
 
 #Gobber Food Values
 [gobber_foods]

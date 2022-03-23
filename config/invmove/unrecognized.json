@@ -1,0 +1,25 @@
+{
+  "allowMovement": {
+    "com.github.alexthe666.locallooks.client.screen.LookCustomizationScreen": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
+    "journeymap.client.ui.dialog.AboutDialog": true,
+    "journeymap.client.ui.fullscreen.Fullscreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
+    "de.guntram.mcmod.beenfo.BeenfoScreen": true,
+    "me.desht.pneumaticcraft.client.gui.CreativeCompressorScreen": true,
+    "me.desht.pneumaticcraft.client.gui.SentryTurretScreen": true,
+    "com.legacy.blue_skies.client.gui.screen.ArcsScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "xerca.xercamusic.client.GuiInstrument": true
+  },
+  "hideBackground": {
+    "com.github.alexthe666.locallooks.client.screen.LookCustomizationScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
+    "me.desht.pneumaticcraft.client.gui.CreativeCompressorScreen": true,
+    "me.desht.pneumaticcraft.client.gui.SentryTurretScreen": true,
+    "com.legacy.blue_skies.client.gui.screen.ArcsScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true
+  }
+}

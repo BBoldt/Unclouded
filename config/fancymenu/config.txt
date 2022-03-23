@@ -10,14 +10,14 @@ B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
-B:showdebugwarnings = 'true';
+B:showdebugwarnings = 'false';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '-1';
 
 
 ##[customization]
 
-B:advancedmode = 'false';
+B:advancedmode = 'true';
 B:showcustomizationbuttons = 'false';
 
 
@@ -48,7 +48,7 @@ B:allowgameintroskip = 'true';
 S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
-B:preloadanimations = 'false';
+B:preloadanimations = 'true';
 S:customgameintroskiptext = '';
 
 
@@ -63,14 +63,24 @@ B:customwindowicon = 'false';
 ##[world_loading_screen]
 
 B:showloadingscreenanimation = 'true';
-B:showloadingscreenpercent = 'true';
+B:showloadingscreenpercent = 'false';
+
+
+##[multiplayer_screen]
+
+B:show_server_icons = 'true';
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';
 
 
 ##[layouteditor]
 
 I:gridsize = '10';
 B:editordeleteconfirmation = 'true';
-B:showgrid = 'false';
+B:showgrid = 'true';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
 
