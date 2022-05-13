@@ -9,8 +9,13 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/Assets/assets/bg.png
+  path = config/fancymenu/Assets/assets/background.png
   action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
 }
 
 customization {
@@ -22,6 +27,11 @@ customization {
 customization {
   keepaspectratio = true
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=802990%
+  action = hidebutton
 }
 
 customization {
@@ -63,8 +73,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\Assets\assets\mp2.png
-  backgroundnormal = config\fancymenu\Assets\assets\mp.png
+  backgroundhovered = config\fancymenu\Assets\assets\multiplayer_S.png
+  backgroundnormal = config\fancymenu\Assets\assets\multiplayer.png
 }
 
 customization {
@@ -122,7 +132,7 @@ customization {
 
 customization {
   identifier = %id=400382%
-  width = 76
+  width = 122
   action = resizebutton
   height = 20
 }
@@ -138,8 +148,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\Assets\assets\st2.png
-  backgroundnormal = config\fancymenu\Assets\assets\st.png
+  backgroundhovered = config\fancymenu\Assets\assets\settings_S.png
+  backgroundnormal = config\fancymenu\Assets\assets\settings.png
 }
 
 customization {
@@ -157,14 +167,14 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = mid-centered
-  x = 69
+  x = 39
   action = movebutton
   y = 43
 }
 
 customization {
   identifier = %id=502382%
-  width = 92
+  width = 122
   action = resizebutton
   height = 20
 }
@@ -180,8 +190,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\Assets\assets\ex2.png
-  backgroundnormal = config\fancymenu\Assets\assets\ex.png
+  backgroundhovered = config\fancymenu\Assets\assets\exitgame_S.png
+  backgroundnormal = config\fancymenu\Assets\assets\exitgame.png
 }
 
 customization {
@@ -242,8 +252,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\Assets\assets\sp2.png
-  backgroundnormal = config\fancymenu\Assets\assets\sp.png
+  backgroundhovered = config\fancymenu\Assets\assets\singleplayer_S.png
+  backgroundnormal = config\fancymenu\Assets\assets\singleplayer.png
 }
 
 customization {
@@ -301,17 +311,6 @@ customization {
   x = 133
   action = movebutton
   y = -44
-}
-
-customization {
-  path = config/fancymenu/Assets/assets/logi.png
-  orientation = mid-centered
-  x = -87
-  width = 177
-  action = addtexture
-  actionid = 79292bcd-5445-4165-a2bd-adabf667d3e91647429599133
-  y = -22
-  height = 40
 }
 
 customization {
@@ -379,16 +378,16 @@ customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config\fancymenu\Assets\assets\bh2.png
+  backgroundhovered = config\fancymenu\Assets\assets\RAS_S.png
   label = 
   clicksound = config/fancymenu/Assets/assets/typewriter-bell.wav
   loopbackgroundanimations = true
-  x = -58
-  width = 121
+  x = 125
+  width = 140
   actionid = 188b1ac0-df1e-4313-aaed-a1097a468e1b1647755818694
   action = addbutton
-  y = 83
-  backgroundnormal = config\fancymenu\Assets\assets\bh.png
+  y = 115
+  backgroundnormal = config\fancymenu\Assets\assets\RAS.png
   value = https://www.bisecthosting.com/unabridged
   height = 20
 }
@@ -405,5 +404,17 @@ customization {
   scale = 30
   playername = %playername%
   parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 54
+  action = addtext
+  actionid = d65b5d0b-bbc1-4e99-af91-1683708a08921652467331789
+  y = 21
+  scale = 1.0
+  alignment = right
+  value = Version 1.0 for 1.18.2
 }
 

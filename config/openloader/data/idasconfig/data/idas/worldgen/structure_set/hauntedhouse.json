@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:hauntedhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480675,
+    "spacing": 80,
+    "separation": 50,
+    "type": "minecraft:random_spread"
+  }
+}

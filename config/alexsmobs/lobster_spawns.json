@@ -11,6 +11,20 @@
         "negate": false,
         "value": "beach"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:peeking_ocean"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:deep_peeking_ocean"
+      }
     ]
   ]
 }

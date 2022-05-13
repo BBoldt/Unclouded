@@ -6,6 +6,13 @@
         "negate": false,
         "value": "minecraft:meadow"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:slushlands"
+      }
     ]
   ]
 }

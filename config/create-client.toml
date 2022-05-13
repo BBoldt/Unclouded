@@ -50,9 +50,6 @@
 	# 
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
 	ignoreFabulousWarning = false
-	# 
-	#Use modern OpenGL features to drastically increase performance.
-	experimentalRendering = true
 
 	# 
 	#Settings for the Goggle Overlay

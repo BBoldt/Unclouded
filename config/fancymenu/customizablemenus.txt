@@ -12,9 +12,6 @@ com.bisecthosting.mods.bhmenu.BHMultiplayerScreen {
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
-net.minecraft.client.gui.screens.LevelLoadingScreen {
-}
-
 net.minecraftforge.client.gui.ModListScreen {
 }
 

@@ -1,6 +1,6 @@
 {
-  "version": "${file.jarVersion}",
-  "prevVersion": "1.17.1",
+  "version": "1.1.5",
+  "prevVersion": "${file.jarVersion}",
   "generatedBy": "\u003cdefault\u003e",
   "hashes": {},
   "mainProfile": "Default",

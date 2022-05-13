@@ -1,4 +1,5 @@
 {
   "disableMusic": false,
-  "musicVolume": 0.5
+  "bleedingMusicVolume": 1.0,
+  "countdownMusicVolume": 1.0
 }

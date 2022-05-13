@@ -6,6 +6,20 @@
         "negate": false,
         "value": "minecraft:sparse_jungle"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:midday_shore"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:crystal_roughs"
+      }
     ]
   ]
 }

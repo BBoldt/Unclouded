@@ -9,14 +9,9 @@
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
 	GiveMode = "MOUSE_PICKUP"
-	#Max number of columns shown
-	#Range: 4 ~ 100
-	MaxColumns = 18
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
-	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
-	FastItemRenderingEnabled = true
 	#Enable cheating items into the hotbar by using the shift+number keys.
 	CheatToHotbarUsingHotkeysEnabled = false
 
@@ -26,7 +21,7 @@
 
 [sorting]
 	#Sorting order for the ingredient list. Valid stages: [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU, TAG, TOOL_TYPE, WEAPON_DAMAGE, ARMOR, MAX_DURABILITY]
-	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU", "ALPHABETICAL", "WEAPON_DAMAGE", "TOOL_TYPE", "ARMOR", "TAG"]
+	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
 
 [search]
 	#Search mode for Mod Names (prefix: @)
@@ -57,4 +52,42 @@
 	#With these formatting options:
 	#obfuscated, bold, strikethrough, underline, italic
 	ModNameFormat = "blue italic"
+
+[IngredientList]
+	#Max number of rows shown
+	#Range: 1 ~ 100
+	MaxRows = 32
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 16
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: LEFT, CENTER, RIGHT
+	HorizontalAlignment = "RIGHT"
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: TOP, CENTER, BOTTOM
+	VerticalAlignment = "TOP"
+	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
+	ButtonNavigationVisibility = "ENABLED"
+	#Set to true to draw a background texture behind the gui.
+	DrawBackground = false
+
+[BookmarkList]
+	#Max number of rows shown
+	#Range: 1 ~ 100
+	MaxRows = 18
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 9
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: LEFT, CENTER, RIGHT
+	HorizontalAlignment = "LEFT"
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: TOP, CENTER, BOTTOM
+	VerticalAlignment = "TOP"
+	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
+	ButtonNavigationVisibility = "ENABLED"
+	#Set to true to draw a background texture behind the gui.
+	DrawBackground = false
 

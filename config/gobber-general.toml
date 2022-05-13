@@ -1,42 +1,21 @@
 
 #Gobber Lucky Block Generation
 [gobber2_lucky_block]
-	#Generate Gobber Lucky Block in the world [true / false]
-	gobberLuckyBlockGeneration = true
 	#Size of Gobber Lucky Block pockets [3-100, default: 4]
 	#Range: 3 ~ 100
 	gobberLuckyBlockSize = 4
 	#Chances of Gobber Lucky Block pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockChance = 20
-	#Minimal height for Gobber Lucky Block pocket generation, [0-384, default: 1]
-	#Range: 0 ~ 384
+	#Minimal height for Gobber Lucky Block pocket generation, [-64 to -384, default: -40]
+	#Range: -64 ~ 384
 	gobberLuckyBlockMinHeight = 1
-	#Maximal height for Gobber Lucky Block pocket generation [0-384, default: 255]
-	#Range: 0 ~ 384
+	#Maximal height for Gobber Lucky Block pocket generation [-64 to -384, default: 255]
+	#Range: -64 ~ 384
 	gobberLuckyBlockMaxHeight = 255
-
-#Gobber Lucky Block Deepslate Generation
-[gobber2_lucky_block_deepslate]
-	#Generate Gobber Lucky Block Deepslate in the world [true / false]
-	gobberLuckyBlockDeepslateGeneration = true
-	#Size of Gobber Lucky Block Deepslate pockets [3-100, default: 4]
-	#Range: 3 ~ 100
-	gobberLuckyBlockDeepslateSize = 4
-	#Chances of Gobber Lucky Block Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberLuckyBlockDeepslateChance = 20
-	#Minimal height for Gobber Lucky Block Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberLuckyBlockDeepslateMinHeight = -64
-	#Maximal height for Gobber Lucky Block Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberLuckyBlockDeepslateMaxHeight = 0
 
 #Gobber Lucky Block Nether Generation
 [gobber2_lucky_block_nether]
-	#Generate Gobber Lucky Block Nether in the world [true / false]
-	gobberLuckyBlockNetherGeneration = true
 	#Size of Gobber Lucky Block Nether pockets [3-100, default: 4]
 	#Range: 3 ~ 100
 	gobberLuckyBlockNetherSize = 4
@@ -52,42 +31,21 @@
 
 #Gobber Ore Generation
 [gobber2_ore]
-	#Generate Gobber Ore in the world [true / false]
-	gobberOreGeneration = true
 	#Size of Gobber Ore pockets [3-100, default: 4]
 	#Range: 3 ~ 100
 	gobberOreSize = 4
 	#Chances of Gobber Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
 	gobberOreChance = 15
-	#Minimal height for Gobber Ore pocket generation, [0-255, default: 20]
-	#Range: 0 ~ 384
+	#Minimal height for Gobber Ore pocket generation, [-64 to -255, default: -40]
+	#Range: -64 ~ 384
 	gobberOreMinHeight = 0
-	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
-	#Range: 0 ~ 384
+	#Maximal height for Gobber Ore pocket generation [-64 to -255, default: 15]
+	#Range: -64 ~ 384
 	gobberOreMaxHeight = 30
-
-#Gobber Ore Deepslate Generation
-[gobber2_ore_deepslate]
-	#Generate Gobber Ore Deepslate in the world [true / false]
-	gobberOreDeepslateGeneration = true
-	#Size of Gobber Ore Deepslate pockets [3-100, default: 4]
-	#Range: 3 ~ 100
-	gobberOreDeepslateSize = 4
-	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberOreDeepslateChance = 20
-	#Minimal height for Gobber Ore Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMinHeight = -64
-	#Maximal height for Gobber Ore Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMaxHeight = 0
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]
-	#Generate Gobber Nether Ore in the world [true / false]
-	gobberOreNetherGeneration = true
 	#Size of Gobber Nether Ore pockets [3-100, default: 3]
 	#Range: 3 ~ 100
 	gobberOreNetherSize = 4
@@ -103,15 +61,13 @@
 
 #Gobber End Ore Generation
 [gobber2_ore_end]
-	#Generate Gobber End Ore in the world [true / false]
-	gobberOreEndGeneration = true
 	#Size of Gobber End Ore pockets [0-100, default: 9]
 	#Range: 0 ~ 100
 	gobberOreEndSize = 9
 	#Chances of Gobber End Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
 	gobberOreEndChance = 15
-	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 40]
+	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 20]
 	#Range: 0 ~ 255
 	gobberOreEndMinHeight = 0
 	#Maximal height for Gobber End Ore pocket generation [0-255, default: 255]
@@ -301,6 +257,14 @@
 	gobberEndArmorAutofeed = true
 	#Enable/disable Gobber Dragon Armor auto feeding
 	gobberDragonArmorAutofeed = true
+	#Enable/disable Gobber Dragon Armor flight
+	gobberDragonArmorFlight = true
+	#Enable/disable Gobber Nether Armor yellow hearts perks
+	gobberNetherArmorYellowHeartsPerks = true
+	#Enable/disable Gobber End Armor yellow hearts perks
+	gobberEndArmorYellowHeartsPerks = true
+	#Enable/disable Gobber Dragon Armor yellow hearts perks
+	gobberDragonArmorYellowHeartsPerks = true
 
 #Gobber Food Values
 [gobber_foods]
@@ -481,7 +445,7 @@
 	#Medallion of Experience multiplier for extra XP orbs [default: 5]
 	#Range: 0 ~ 20
 	medallionExpOrbs = 5
-	#Medallion of Experience multiplier for extra mob loot [default: 10]
+	#Medallion of Experience multiplier for extra mob loot [default: 20]
 	#Range: 5 ~ 100
 	medallionExpLoot = 20
 

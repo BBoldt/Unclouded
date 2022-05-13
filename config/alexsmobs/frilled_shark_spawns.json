@@ -34,6 +34,13 @@
         "negate": false,
         "value": "minecraft:ocean"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:deep_peeking_ocean"
+      }
     ]
   ]
 }

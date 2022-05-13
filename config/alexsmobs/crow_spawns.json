@@ -33,6 +33,48 @@
         "negate": false,
         "value": "plains"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:snow_covered_pines"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:calming_skies"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:sunlit_maple_forest"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:moonlit_reservoir"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:polar_highland"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:crescent_orchard"
+      }
     ]
   ]
 }

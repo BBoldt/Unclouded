@@ -1,0 +1,21 @@
+{
+  "common": 20,
+  "uncommon": 17,
+  "rare": 17,
+  "epic": 17,
+  "medalEffects": [
+    {
+      "effect": "minecraft:strength",
+      "mod": 0
+    },
+    {
+      "effect": "minecraft:strength",
+      "mod": 1
+    },
+    {
+      "effect": "minecraft:strength",
+      "mod": 2
+    }
+  ],
+  "name": "Animalia"
+}

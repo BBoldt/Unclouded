@@ -12,7 +12,7 @@
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:plains, byg:alps]"
 		# Default: "[]"
-		"Additional Whitelisted Biomes" = "[]"
+		"Additional Whitelisted Biomes (Desert)" = "[]"
 		# List of biomes that will NOT have Desert Decorations.
 		# By default, all Desert biomes will automatically have Desert Decorations, 
 		# so you only need to blacklist biomes with the Desert category that you don't want to spawn 
@@ -21,7 +21,7 @@
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:desert, byg:dunes]"
 		# Default: "[]"
-		"Blacklisted Biomes" = "[]"
+		"Blacklisted Biomes (Desert)" = "[]"
 
 		###########################################################################################################
 		## Settings for the different Desert Well variations.
@@ -120,4 +120,21 @@
 		# Determines the spawn rate of ruined gateways.
 		# Default: 2000
 		"Ruined Gateway Spawn Rate" = 2000
+		# List of additional biomes that will have Swamp Structures.
+		# By default, all biomes (including modded biomes) with the Swamp category are automatically included, 
+		# and do not need to be added here.
+		# List must be comma-separated values enclosed in square brackets. 
+		# Entries must have the mod namespace included.
+		# For example: "[minecraft:plains, byg:alps]"
+		# Default: "[]"
+		"Additional Whitelisted Biomes (Swamp)" = "[]"
+		# List of biomes that will NOT have Swamp Structures.
+		# By default, all Swamp biomes will automatically have Swamp Structures, 
+		# so you only need to blacklist biomes with the Swamp category that you don't want to spawn 
+		# Swamp Structures in.
+		# List must be comma-separated values enclosed in square brackets.
+		# Entries must have the mod namespace included.
+		# For example: "[minecraft:desert, byg:dunes]"
+		# Default: "[]"
+		"Blacklisted Biomes (Swamp)" = "[]"
 

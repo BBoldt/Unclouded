@@ -28,6 +28,27 @@
         "negate": true,
         "value": "mountain"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:crystal_dunes"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:crystal_dunes_spikes"
+      }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:frostbitten_forest"
+      }
     ]
   ]
 }

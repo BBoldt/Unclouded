@@ -21,6 +21,13 @@
         "negate": true,
         "value": "minecraft:deep_warm_ocean"
       }
+    ],
+	[
+	  {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "blue_skies:deep_peeking_ocean"
+      }
     ]
   ]
 }

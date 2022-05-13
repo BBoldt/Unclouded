@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480678,
+    "spacing": 90,
+    "separation": 50,
+    "type": "minecraft:random_spread"
+  }
+}
