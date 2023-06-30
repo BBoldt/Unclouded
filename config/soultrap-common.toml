@@ -1,9 +1,0 @@
-
-["Soul Trap Configuration"]
-	#creature_list
-	creature_list = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:cave_spider", "minecraft:blaze", "minecraft:magma_cube", "minecraft:silverfish"]
-	#Enable blacklist mode
-	blacklist = false
-	#XP Levels Consumed
-	cost = 0
-

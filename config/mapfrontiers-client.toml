@@ -1,8 +1,48 @@
+#Range: 0 ~ 11
+newFrontierShape = 6
+#Range: 0 ~ 999
+newFrontierShapeWidth = 10
+#Range: 0 ~ 999
+newFrontierShapeRadius = 20
+#Range: 0 ~ 7
+newFrontierChunkShape = 0
+#Range: 0 ~ 32
+newFrontierChunkShapeWidth = 5
+#Range: 0 ~ 32
+newFrontierChunkShapeLength = 5
+#Allowed Values: Vertex, Chunk
+newFrontierMode = "Vertex"
 #Allowed Values: Info, Edit, Nothing
 afterCreatingFrontier = "Info"
-#Force all frontier names to be shown on the map or hidden. In Manual you can decide for each frontier.
-#Allowed Values: Manual, Show, Hide
-nameVisibility = "Manual"
+pasteName = false
+pasteVisibility = true
+pasteColor = true
+pasteBanner = true
+pasteOptionsVisible = false
+#Force all frontier to be shown or hidden on the fullscreen map. In Manual you can decide for each frontier.
+#Allowed Values: Custom, Always, Never
+fullscreenVisibility = "Custom"
+#Force all frontier names to be shown or hidden on the fullscreen map. In Manual you can decide for each frontier.
+#Allowed Values: Custom, Always, Never
+fullscreenNameVisibility = "Custom"
+#Force all frontier owners to be shown or hidden on the fullscreen map. In Manual you can decide for each frontier.
+#Allowed Values: Custom, Always, Never
+fullscreenOwnerVisibility = "Custom"
+#Force all frontier to be shown or hidden on the minimap. In Manual you can decide for each frontier.
+#Allowed Values: Custom, Always, Never
+minimapVisibility = "Custom"
+#Force all frontier names to be shown or hidden on the minimap. In Manual you can decide for each frontier.
+#Allowed Values: Custom, Always, Never
+minimapNameVisibility = "Custom"
+#Force all frontier owners to be shown or hidden on the minimap. In Manual you can decide for each frontier.
+#Allowed Values: Custom, Always, Never
+minimapOwnerVisibility = "Custom"
+#Show the frontier announcement above the hotbar instead of showing it as a title.
+titleAnnouncementAboveHotbar = false
+#Announce unnamed frontiers in chat/title.
+announceUnnamedFrontiers = false
+#Hides the name if it is wider than the frontier at the zoom level it is being viewed.
+hideNamesThatDontFit = true
 #Transparency of the frontier polygons. 0.0 is fully transparent and 1.0 is opaque.
 #Range: 0.0 ~ 1.0
 polygonsOpacity = 0.4
@@ -14,14 +54,6 @@ filterFrontierType = "All"
 #Allowed Values: All, You, Others
 filterFrontierOwner = "All"
 filterFrontierDimension = "all"
-#Range: 0 ~ 11
-newFrontierShape = 0
-#Range: 0 ~ 999
-newFrontierShapeWidth = 10
-#Range: 0 ~ 999
-newFrontierShapeRadius = 20
-#Hides the name if it is wider than the frontier at the zoom level it is being viewed.
-hideNamesThatDontFit = true
 
 [hud]
 	#Show the HUD on screen.

@@ -1,4 +1,4 @@
-_Versions = "1.6.3a"
+_version = 1
 # Show the lod button in the options screen next to fov
 optionsButton = true
 
@@ -31,7 +31,7 @@ optionsButton = true
 			# HIGH: uses at max 8 columns per position. 
 			#
 			# Lowest Quality: LOW Highest Quality: HIGH
-			verticalQuality = "HIGH"
+			verticalQuality = "MEDIUM"
 			# This indicates how quickly fake chunks decrease in quality the further away they are. 
 			# Higher settings will render higher quality fake chunks farther away, 
 			# but will increase memory and GPU usage.
@@ -39,7 +39,7 @@ optionsButton = true
 			# This indicates how quickly fake chunks decrease in quality the further away they are. 
 			# Higher settings will render higher quality fake chunks farther away, 
 			# but will increase memory and GPU usage.
-			horizontalQuality = "HIGH"
+			horizontalQuality = "MEDIUM"
 			# This determines how lod level drop off will be done. 
 			#
 			# SMOOTH_DROPOFF: 

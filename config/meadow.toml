@@ -1,0 +1,7 @@
+[spawning]
+meadowSpawnWeight = 15
+meadowPackSizeMin = 6
+meadowPackSizeMax = 10
+bearSpawnWeight = 5
+bearPackSizeMin = 2
+bearPackSizeMax = 3

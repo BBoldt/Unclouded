@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screens.TitleScreen
+  identifier = net.minecraft.class_442
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -9,8 +9,8 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/Assets/assets/background.png
-  action = texturizebackground
+  name = uncslideshow
+  action = setbackgroundslideshow
 }
 
 customization {
@@ -30,25 +30,12 @@ customization {
 }
 
 customization {
-  identifier = %id=802990%
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=604346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=604346%
-  orientation = bottom-centered
-  x = 78
-  action = movebutton
-  y = -34
-}
-
-customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = 42
   action = movebutton
@@ -56,20 +43,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 122
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -78,19 +65,19 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = bottom-centered
   x = -45
   action = movebutton
@@ -98,13 +85,13 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
@@ -123,7 +110,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -160
   action = movebutton
@@ -131,20 +118,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 122
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -153,19 +140,19 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 39
   action = movebutton
@@ -173,20 +160,20 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 122
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -195,19 +182,19 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-centered
   x = 27
   action = movebutton
@@ -215,19 +202,19 @@ customization {
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -162
   action = movebutton
@@ -235,20 +222,20 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 122
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -257,19 +244,19 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   orientation = bottom-centered
   x = -16
   action = movebutton
@@ -277,47 +264,75 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   width = 32
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   path = config\fancymenu\Assets\assets\key-type-shot-strike-typewriter.wav
   action = addhoversound
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   path = config/fancymenu/Assets/assets/typewriter-bell.wav
   action = setbuttonclicksound
 }
 
 customization {
-  identifier = %id=502346%
-  action = hidebutton
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 8c60c532-f714-4a04-b30b-66053d4ce6351687937342130
+  y = 284
+  height = 10
 }
 
 customization {
-  identifier = %id=376346%
-  action = hidebutton
+  orientation = top-left
+  hidden = false
+  x = 355
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 341776e4-aa0a-4945-8bd6-f65e029f8a1c1687937342135
+  y = 194
+  height = 13
 }
 
 customization {
-  identifier = %id=376346%
-  orientation = bottom-centered
-  x = 133
-  action = movebutton
-  y = -44
+  orientation = top-left
+  hidden = true
+  x = 139
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7fd2971d-fbb2-4100-8075-bb5757a3d75a1687937342136
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #daa44d
+  hidden = false
+  x = -1
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 904906d0-db8e-4e86-9fbb-c6fab593239c1687937342136
+  y = -45
+  height = 30
 }
 
 customization {
   hoversound = config/fancymenu/Assets/assets/key-type-shot-strike-typewriter.wav
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://discord.gg/wV3jFx7F2e%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\Assets\assets\dsc.png
   label = 
   clicksound = config/fancymenu/Assets/assets/typewriter-bell.wav
@@ -325,11 +340,10 @@ customization {
   hoverlabel = Discord
   x = 93
   width = 33
-  actionid = f0e4b808-978f-4f99-9bde-65099fde2d4a1647527026838
   action = addbutton
+  actionid = f0e4b808-978f-4f99-9bde-65099fde2d4a1647527026838
   y = -33
   backgroundnormal = config\fancymenu\Assets\assets\dsc.png
-  value = https://discord.gg/wV3jFx7F2e
   height = 24
 }
 
@@ -337,7 +351,7 @@ customization {
   hoversound = config/fancymenu/Assets/assets/key-type-shot-strike-typewriter.wav
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://twitter.com/bboldtabridged%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\Assets\assets\twt.png
   label = 
   clicksound = config/fancymenu/Assets/assets/typewriter-bell.wav
@@ -345,11 +359,10 @@ customization {
   hoverlabel = Twitter
   x = 9
   width = 32
-  actionid = 7202c837-f24a-4bd0-9d69-fa5d924bf4a31647527090797
   action = addbutton
+  actionid = 7202c837-f24a-4bd0-9d69-fa5d924bf4a31647527090797
   y = -33
   backgroundnormal = config\fancymenu\Assets\assets\twt.png
-  value = https://twitter.com/bboldtabridged
   height = 24
 }
 
@@ -357,7 +370,7 @@ customization {
   hoversound = config/fancymenu/Assets/assets/key-type-shot-strike-typewriter.wav
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://github.com/BBoldt/Unclouded%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\Assets\assets\gh.png
   label = 
   clicksound = config/fancymenu/Assets/assets/typewriter-bell.wav
@@ -365,11 +378,10 @@ customization {
   hoverlabel = Issues
   x = 53
   width = 24
-  actionid = b3308697-9994-4d0d-b16d-1fb0b2624d311647527110122
   action = addbutton
+  actionid = b3308697-9994-4d0d-b16d-1fb0b2624d311647527110122
   y = -33
   backgroundnormal = config\fancymenu\Assets\assets\gh.png
-  value = https://github.com/BBoldt/Unclouded
   height = 24
 }
 
@@ -377,44 +389,34 @@ customization {
   hoversound = config/fancymenu/Assets/assets/key-type-shot-strike-typewriter.wav
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.bisecthosting.com/unabridged%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\Assets\assets\RAS_S.png
   label = 
   clicksound = config/fancymenu/Assets/assets/typewriter-bell.wav
   loopbackgroundanimations = true
   x = 125
   width = 140
-  actionid = 188b1ac0-df1e-4313-aaed-a1097a468e1b1647755818694
   action = addbutton
+  actionid = 188b1ac0-df1e-4313-aaed-a1097a468e1b1647755818694
   y = 115
   backgroundnormal = config\fancymenu\Assets\assets\RAS.png
-  value = https://www.bisecthosting.com/unabridged
   height = 20
-}
-
-customization {
-  showname = true
-  orientation = mid-centered
-  crouching = false
-  x = 0
-  slim = false
-  actionid = 58e558bd-7717-43ab-96c8-5b0b6af6448f1647826169254
-  action = addentity
-  y = -28
-  scale = 30
-  playername = %playername%
-  parrot = false
 }
 
 customization {
   orientation = mid-centered
   shadow = true
-  x = 54
-  action = addtext
+  x = 91
   actionid = d65b5d0b-bbc1-4e99-af91-1683708a08921652467331789
+  action = addtext
   y = 21
   scale = 1.0
   alignment = right
-  value = Version 1.0 for 1.18.2
+  value = EARLY ACCESS 0.2 for Fabric 1.19.2
+}
+
+customization {
+  identifier = %id=9768%
+  action = hidebutton
 }
 
