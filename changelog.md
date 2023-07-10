@@ -1,5 +1,10 @@
 ## Unclouded (on fabric) - EARLY RELEASE 0.2a -> EARLY ACCESS 0.3
 
+### Changes
+  * Added Charm Fixer to fix #22 (Alloy forge crash)
+  * Greatly reduced the quality of Droplight #20
+  * Removed the "extended" create mods, which are ported wrong and break create's recipes
+
 ### Added
 
   * [Charm Fixer](https://www.curseforge.com/minecraft/mc-mods/charm-fixer) (by [Blodhgrm](https://www.curseforge.com/members/Blodhgrm/projects))
