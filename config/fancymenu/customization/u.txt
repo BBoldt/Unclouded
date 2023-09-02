@@ -412,7 +412,7 @@ customization {
   y = 21
   scale = 1.0
   alignment = right
-  value = EARLY ACCESS 0.2 for Fabric 1.19.2
+  value = EARLY ACCESS 0.3 for Fabric 1.19.2
 }
 
 customization {

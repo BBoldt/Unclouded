@@ -1,9 +1,9 @@
 #Range: 0 ~ 11
-newFrontierShape = 6
+newFrontierShape = 9
 #Range: 0 ~ 999
 newFrontierShapeWidth = 10
 #Range: 0 ~ 999
-newFrontierShapeRadius = 20
+newFrontierShapeRadius = 200
 #Range: 0 ~ 7
 newFrontierChunkShape = 0
 #Range: 0 ~ 32
@@ -54,6 +54,8 @@ filterFrontierType = "All"
 #Allowed Values: All, You, Others
 filterFrontierOwner = "All"
 filterFrontierDimension = "all"
+#Show buttons on fullscreen map.
+fullscreenButtons = true
 
 [hud]
 	#Show the HUD on screen.
