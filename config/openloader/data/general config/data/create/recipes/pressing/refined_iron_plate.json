@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:refined_iron_ingots"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:refined_iron_plate"
+    }
+  ],
+  "time": 300
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_orichalcum_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Orichalcum Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_orichalcum",
+		"ore_set": [
+			"mythicmetals:orichalcum_ore",
+			"mythicmetals:deepslate_orichalcum_ore",
+			"mythicmetals:tuff_orichalcum_ore",
+			"mythicmetals:smooth_basalt_orichalcum_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_orichalcum",
+		"textureFile": "mythicmetals:item/raw_ore/raw_orichalcum",
+		"englishName": "Regenerative Orichalcum Cluster"
+	}
+}

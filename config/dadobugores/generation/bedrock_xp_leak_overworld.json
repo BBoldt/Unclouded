@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_xp_leak_overworld",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_xp_leak",
+	"chance": 13,
+	"size": 5
+}

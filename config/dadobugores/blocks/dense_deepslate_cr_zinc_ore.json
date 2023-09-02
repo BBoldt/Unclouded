@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_cr_zinc_ore",
+	"modsRequired": [
+		"minecraft",
+		"create"
+	],
+	"toolLevel": 2,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Zinc Ore",
+	"damageFunction": "default",
+	"textureClone": "create:block/deepslate_zinc_ore",
+	"denseOreGenTarget": "create:deepslate_zinc_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"create:deepslate_zinc_ore"
+		]
+	}
+}

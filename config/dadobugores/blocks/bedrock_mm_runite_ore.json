@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_runite_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Runite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_runite",
+		"ore_set": [
+			"mythicmetals:runite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_runite",
+		"textureFile": "mythicmetals:item/raw_ore/raw_runite",
+		"englishName": "Regenerative Runite Cluster"
+	}
+}

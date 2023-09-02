@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_ic_iridium_ore",
+	"modsRequired": [
+		"minecraft",
+		"ftbic"
+	],
+	"toolLevel": 0,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Iridium Ore",
+	"damageFunction": "default",
+	"textureClone": "ftbic:block/deepslate_iridium_ore",
+	"denseOreGenTarget": "ftbic:deepslate_iridium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"ftbic:deepslate_iridium_ore"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mm_stormyx_ore_nether_top",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"layer": "top",
+	"oreBlock": "dadobugores:bedrock_mm_stormyx_ore",
+	"chance": 9,
+	"size": 8
+}

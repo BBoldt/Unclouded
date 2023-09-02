@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_pw_dense_uraninite_ore",
+	"modsRequired": [
+		"minecraft",
+		"powah"
+	],
+	"toolLevel": 0,
+	"hardness": 4.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "SuperDense Uraninite Ore",
+	"damageFunction": "default",
+	"textureClone": "powah:block/uraninite_ore_dense",
+	"denseOreGenTarget": "powah:uraninite_ore_dense",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"powah:uraninite_ore_dense"
+		]
+	}
+}

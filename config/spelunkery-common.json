@@ -2,7 +2,9 @@
   "misc": {
     "creative_tab": false,
     "stonecutter_damage": true,
+    "disable_diamond_grindstone_depletion": false,
     "diamond_grindstone_deplete_chance": 20,
+    "parachute_delay": 10,
     "enable_rough_gems": true,
     "enable_raw_nuggets": true
   },
@@ -26,6 +28,7 @@
     "magnetite_range": 64
   },
   "nether_portals": {
+    "portal_fluid_drinking": true,
     "flint_and_steel_portal_lighting": true,
     "crying_obsidian_dimensional_tears": true,
     "respawn_anchor_dimensional_tears": true,
@@ -40,5 +43,8 @@
     "better_sculk_patches": true,
     "dark_forest_portabellas": true,
     "enable_mores": true
+  },
+  "fabric_specific": {
+    "ore_stone_drops": true
   }
 }

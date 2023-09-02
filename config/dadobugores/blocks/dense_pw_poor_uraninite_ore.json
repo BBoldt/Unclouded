@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_pw_poor_uraninite_ore",
+	"modsRequired": [
+		"minecraft",
+		"powah"
+	],
+	"toolLevel": 0,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Poor Uraninite Ore",
+	"damageFunction": "default",
+	"textureClone": "powah:block/uraninite_ore_poor",
+	"denseOreGenTarget": "powah:uraninite_ore_poor",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"powah:uraninite_ore_poor"
+		]
+	}
+}

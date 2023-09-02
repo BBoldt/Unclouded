@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_shiverstone_ug_regalium_ore",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"toolLevel": 2,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Shiverstone Regalium Ore",
+	"damageFunction": "default",
+	"textureClone": "undergarden:block/shiverstone_regalium_ore",
+	"denseOreGenTarget": "undergarden:shiverstone_regalium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "undergarden:shiverstone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"undergarden:shiverstone_regalium_ore"
+		]
+	}
+}

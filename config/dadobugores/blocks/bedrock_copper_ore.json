@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_copper_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Copper Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_copper",
+		"ore_set": [
+			"minecraft:deepslate_copper_ore",
+			"beyond_earth:glacio_copper_ore",
+			"minecraft:copper_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_copper",
+		"modelFile": "minecraft:item/raw_copper",
+		"englishName": "Regenerative Copper Cluster"
+	}
+}

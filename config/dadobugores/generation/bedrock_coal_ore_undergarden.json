@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_coal_ore_undergarden",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"undergarden:is_undergarden"
+	],
+	"oreBlock": "dadobugores:bedrock_coal_ore",
+	"chance": 3,
+	"size": 20
+}

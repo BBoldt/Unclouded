@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_lava_ore_nether_bottom",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_lava_ore",
+	"chance": 3,
+	"size": 30
+}

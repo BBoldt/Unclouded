@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_silver_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Silver Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_silver",
+		"ore_set": [
+			"techreborn:deepslate_silver_ore",
+			"techreborn:silver_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_silver",
+		"textureFile": "techreborn:item/rawmetal/raw_silver",
+		"englishName": "Regenerative Silver Cluster"
+	}
+}

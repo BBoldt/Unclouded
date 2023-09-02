@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#P#",
+    "#T#"
+  ],
+  "key": {
+    "#": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "T": {
+      "item": "create:turntable"
+    }
+  },
+  "result": {
+    "item": "computercraft:disk_drive"
+  }
+}

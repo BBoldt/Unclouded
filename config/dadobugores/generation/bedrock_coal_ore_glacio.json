@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_coal_ore_glacio",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"beyond_earth:glacio"
+	],
+	"oreBlock": "dadobugores:bedrock_coal_ore",
+	"chance": 3,
+	"size": 20
+}

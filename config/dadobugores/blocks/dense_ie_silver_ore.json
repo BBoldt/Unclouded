@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_ie_silver_ore",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Silver Ore",
+	"damageFunction": "default",
+	"textureClone": "immersiveengineering:block/ore_silver",
+	"denseOreGenTarget": "immersiveengineering:ore_silver",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"immersiveengineering:ore_silver"
+		]
+	}
+}

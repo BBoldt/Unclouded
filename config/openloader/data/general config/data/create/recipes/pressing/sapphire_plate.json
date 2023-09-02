@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:sapphire_dusts"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:sapphire_plate"
+    }
+  ],
+  "time": 300
+}

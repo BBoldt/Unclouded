@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_cinnabar_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"XPmin": 1,
+	"XPmax": 3,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Cinnabar Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_cinnabar",
+		"ore_set": [
+			"thermal:deepslate_cinnabar_ore",
+			"thermal:cinnabar_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_cinnabar",
+		"textureFile": "thermal:item/cinnabar",
+		"englishName": "Regenerative Cinnabar Cluster"
+	}
+}

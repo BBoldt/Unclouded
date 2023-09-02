@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mk_lead_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Lead Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mk_lead",
+		"ore_set": [
+			"mekanism:lead_ore",
+			"mekanism:deepslate_lead_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mk_lead",
+		"textureFile": "mekanism:item/raw_lead",
+		"englishName": "Regenerative Lead Cluster"
+	}
+}

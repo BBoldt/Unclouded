@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_mm_orichalcum_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 3,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Orichalcum Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/deepslate_orichalcum_ore",
+	"denseOreGenTarget": "mythicmetals:deepslate_orichalcum_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:deepslate_orichalcum_ore"
+		]
+	}
+}

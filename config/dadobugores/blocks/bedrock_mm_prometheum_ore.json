@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_prometheum_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Prometheum Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_prometheum",
+		"ore_set": [
+			"mythicmetals:prometheum_ore",
+			"mythicmetals:deepslate_prometheum_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_prometheum",
+		"textureFile": "mythicmetals:item/raw_ore/raw_prometheum",
+		"englishName": "Regenerative Prometheum Cluster"
+	}
+}

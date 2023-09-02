@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_th_niter_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 0,
+	"XPmax": 2,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Niter Ore",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/deepslate_niter_ore",
+	"denseOreGenTarget": "thermal:deepslate_niter_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:deepslate_niter_ore"
+		]
+	}
+}

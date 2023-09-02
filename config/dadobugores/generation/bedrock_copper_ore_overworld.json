@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_copper_ore_overworld",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_copper_ore",
+	"chance": 3,
+	"size": 13
+}

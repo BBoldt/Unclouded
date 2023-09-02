@@ -47,6 +47,9 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "fulleng": {
+    "storage_monitor": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
   },
@@ -74,5 +77,22 @@
   },
   "lootr": {
     "info": true
+  },
+  "infinitybuttons": {
+    "hide_secret_buttons": true,
+    "hide_lantern_buttons": true,
+    "hide_torch_buttons": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
   }
 }

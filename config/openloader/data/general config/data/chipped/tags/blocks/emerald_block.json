@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:emerald_block",
+    "chipped:emerald_block_panels",
+    "chipped:ancient_emerald_block",
+    "chipped:chipped_emerald_block",
+    "chipped:embossed_emerald_block",
+    "chipped:engraved_emerald_block",
+    "chipped:layered_emerald_block",
+    "chipped:plated_emerald_block",
+    "chipped:polished_emerald_block",
+    "chipped:reinforced_emerald_block",
+    "chipped:sheet_emerald_block",
+    "chipped:shuttered_emerald_block",
+    "chipped:stacked_emerald_block",
+    "chisel:bismuth/emerald_block",
+    "chisel:cells/emerald_block",
+    "chisel:chunky/emerald_block",
+    "chisel:circular/emerald_block",
+    "chisel:four/emerald_block",
+    "chisel:fourornate/emerald_block",
+    "chisel:goldborder/emerald_block",
+    "chisel:masonry/emerald_block",
+    "chisel:ornate/emerald_block",
+    "chisel:panel/emerald_block",
+    "chisel:panelclassic/emerald_block",
+    "chisel:prism/emerald_block",
+    "chisel:smooth/emerald_block",
+    "chisel:zelda/emerald_block"
+  ]
+}

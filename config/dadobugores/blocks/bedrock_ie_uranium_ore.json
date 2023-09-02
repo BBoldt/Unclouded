@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ie_uranium_ore",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Uranium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ie_uranium",
+		"ore_set": [
+			"immersiveengineering:ore_uranium",
+			"immersiveengineering:deepslate_ore_uranium"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ie_uranium",
+		"textureFile": "immersiveengineering:item/metal_raw_uranium",
+		"englishName": "Regenerative Uranium Cluster"
+	}
+}

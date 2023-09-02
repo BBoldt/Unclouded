@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ma_blazing_quartz_ore",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"XPmin": 4,
+	"XPmax": 7,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Blazing Quartz Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ma_blazing_quartz",
+		"ore_set": [
+			"malum:blazing_quartz_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ma_blazing_quartz",
+		"textureFile": "malum:item/blazing_quartz",
+		"englishName": "Regenerative Blazing Quartz Cluster"
+	}
+}

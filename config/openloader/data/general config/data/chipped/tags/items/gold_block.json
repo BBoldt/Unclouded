@@ -1,0 +1,31 @@
+{
+  "values": [
+    "minecraft:gold_block",
+    "chipped:gold_block_panels",
+    "chipped:ancient_gold_block",
+    "chipped:chipped_gold_block",
+    "chipped:embossed_gold_block",
+    "chipped:engraved_gold_block",
+    "chipped:layered_gold_block",
+    "chipped:plated_gold_block",
+    "chipped:pressed_gold_block",
+    "chipped:reinforced_gold_block",
+    "chipped:sheet_gold_block",
+    "chipped:shuttered_gold_block",
+    "chipped:stacked_gold_block",
+    "chisel:brick/gold_block",
+    "chisel:cart/gold_block",
+    "chisel:coin_heads/gold_block",
+    "chisel:coin_tails/gold_block",
+    "chisel:crate_dark/gold_block",
+    "chisel:crate_light/gold_block",
+    "chisel:largeingot/gold_block",
+    "chisel:plates/gold_block",
+    "chisel:rivets/gold_block",
+    "chisel:simple/gold_block",
+    "chisel:smallingot/gold_block",
+    "chisel:space/gold_block",
+    "chisel:spaceblack/gold_block",
+    "chisel:star/gold_block"
+  ]
+}

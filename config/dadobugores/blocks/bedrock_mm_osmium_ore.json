@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_osmium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Osmium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_osmium",
+		"ore_set": [
+			"mythicmetals:osmium_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_osmium",
+		"textureFile": "mythicmetals:item/raw_ore/raw_osmium",
+		"englishName": "Regenerative Osmium Cluster"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_coal_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 0,
+	"XPmax": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Coal Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/coal_ore",
+	"denseOreGenTarget": "minecraft:coal_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:coal_ore"
+		]
+	}
+}

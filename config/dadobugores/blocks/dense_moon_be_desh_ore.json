@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_moon_be_desh_ore",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Moon Desh Ore",
+	"damageFunction": "default",
+	"textureClone": "beyond_earth:block/moon_desh_ore",
+	"denseOreGenTarget": "beyond_earth:moon_desh_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "beyond_earth:moon_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"beyond_earth:moon_desh_ore"
+		]
+	}
+}

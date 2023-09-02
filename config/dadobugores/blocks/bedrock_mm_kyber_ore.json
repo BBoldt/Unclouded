@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_kyber_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Kyber Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_kyber",
+		"ore_set": [
+			"mythicmetals:calcite_kyber_ore",
+			"mythicmetals:kyber_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_kyber",
+		"textureFile": "mythicmetals:item/raw_ore/raw_kyber",
+		"englishName": "Regenerative Kyber Cluster"
+	}
+}

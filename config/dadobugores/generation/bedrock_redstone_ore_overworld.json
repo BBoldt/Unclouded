@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_redstone_ore_overworld",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_redstone_ore",
+	"chance": 6,
+	"size": 11
+}

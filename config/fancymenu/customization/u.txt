@@ -152,6 +152,11 @@ customization {
 }
 
 customization {
+  identifier = %id=9768%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 39
@@ -406,17 +411,12 @@ customization {
 customization {
   orientation = mid-centered
   shadow = true
-  x = 91
+  x = 51
   actionid = d65b5d0b-bbc1-4e99-af91-1683708a08921652467331789
   action = addtext
   y = 21
   scale = 1.0
   alignment = right
-  value = EARLY ACCESS 0.3 for Fabric 1.19.2
-}
-
-customization {
-  identifier = %id=9768%
-  action = hidebutton
+  value = 0.5 for Fabric 1.19.2
 }
 

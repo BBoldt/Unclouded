@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_lava_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 1,
+	"XPmax": 6,
+	"onlyValidTools": false,
+	"englishName": "Lava Seep",
+	"fluid": "minecraft:lava",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_lava",
+		"ore_set": []
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_lava",
+		"modelFile": "minecraft:item/lava_bucket",
+		"englishName": "Regenerative Lava Shale",
+		"tooltipColor": "GREEN",
+		"tooltipLocalization": "item.dadobugores.regen_fluid.tooltip"
+	}
+}

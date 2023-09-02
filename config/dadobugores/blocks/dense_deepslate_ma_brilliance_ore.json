@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_ma_brilliance_ore",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"toolLevel": 0,
+	"XPmin": 14,
+	"XPmax": 18,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Brilliance Ore",
+	"damageFunction": "default",
+	"textureClone": "malum:block/brilliant_deepslate",
+	"denseOreGenTarget": "malum:brilliant_deepslate",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"malum:brilliant_deepslate"
+		]
+	}
+}

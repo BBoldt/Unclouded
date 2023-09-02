@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tr_tungsten_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"toolLevel": 3,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Tungsten Ore",
+	"damageFunction": "default",
+	"textureClone": "techreborn:block/tungsten_ore",
+	"denseOreGenTarget": "techreborn:tungsten_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:end_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"techreborn:tungsten_ore"
+		]
+	}
+}

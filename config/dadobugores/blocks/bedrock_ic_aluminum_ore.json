@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ic_aluminum_ore",
+	"modsRequired": [
+		"minecraft",
+		"ftbic"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Aluminum Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ic_aluminum",
+		"ore_set": [
+			"ftbic:aluminum_ore",
+			"ftbic:deepslate_aluminum_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ic_aluminum",
+		"textureFile": "ftbic:item/aluminum_chunk",
+		"englishName": "Regenerative Aluminum Cluster"
+	}
+}

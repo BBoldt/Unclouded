@@ -1,0 +1,19 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_er_anglesite_ore_end",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_end"
+	],
+	"layer": "all",
+	"targetBlock": "minecraft:end_stone",
+	"oreBlock": "dadobugores:bedrock_er_anglesite_ore",
+	"replaceWithBlock_State": false,
+	"chance": -1,
+	"count": 4,
+	"size": 8
+}

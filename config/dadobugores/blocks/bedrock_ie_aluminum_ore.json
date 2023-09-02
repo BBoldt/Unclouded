@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ie_aluminum_ore",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Aluminum Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ie_aluminum",
+		"ore_set": [
+			"immersiveengineering:deepslate_ore_aluminum",
+			"immersiveengineering:ore_aluminum"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ie_aluminum",
+		"textureFile": "immersiveengineering:item/metal_raw_aluminum",
+		"englishName": "Regenerative Aluminum Cluster"
+	}
+}

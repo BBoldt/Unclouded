@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_mm_mythril_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 3,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Mythril Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/deepslate_mythril_ore",
+	"denseOreGenTarget": "mythicmetals:deepslate_mythril_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:deepslate_mythril_ore"
+		]
+	}
+}

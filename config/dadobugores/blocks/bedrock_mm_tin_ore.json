@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_tin_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Tin Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_tin",
+		"ore_set": [
+			"mythicmetals:tin_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_tin",
+		"textureFile": "mythicmetals:item/raw_ore/raw_tin",
+		"englishName": "Regenerative Tin Cluster"
+	}
+}

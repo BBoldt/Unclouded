@@ -1,0 +1,18 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_hollow_end",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_end"
+	],
+	"layer": "all",
+	"targetBlock": "minecraft:end_stone",
+	"oreBlock": "dadobugores:bedrock_hollow",
+	"replaceWithBlock_State": false,
+	"chance": -1,
+	"count": 1,
+	"size": 60
+}

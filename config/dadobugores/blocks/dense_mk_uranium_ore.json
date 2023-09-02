@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mk_uranium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Uranium Ore",
+	"damageFunction": "default",
+	"textureClone": "mekanism:block/uranium_ore",
+	"denseOreGenTarget": "mekanism:uranium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mekanism:uranium_ore"
+		]
+	}
+}

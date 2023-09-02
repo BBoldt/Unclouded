@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_ie_uranium_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_ie_uranium_ore",
+	"chance": 7,
+	"size": 4
+}

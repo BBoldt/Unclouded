@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tr_sheldonite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"toolLevel": 3,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Sheldonite Ore",
+	"damageFunction": "default",
+	"textureClone": "techreborn:block/sheldonite_ore",
+	"denseOreGenTarget": "techreborn:sheldonite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:end_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"techreborn:sheldonite_ore"
+		]
+	}
+}

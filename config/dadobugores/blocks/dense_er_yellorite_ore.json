@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_er_yellorite_ore",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"toolLevel": 0,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Yellorite Ore",
+	"damageFunction": "default",
+	"textureClone": "bigreactors:block/yellorite_ore",
+	"denseOreGenTarget": "bigreactors:yellorite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"bigreactors:yellorite_ore"
+		]
+	}
+}

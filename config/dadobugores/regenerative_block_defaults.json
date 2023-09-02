@@ -1,0 +1,22 @@
+{
+  "toolLevel": 4,
+  "durabilityMin": 10,
+  "durabilityMax": 50,
+  "showOre": true,
+  "hardness": 50.0,
+  "resistance": 0.5,
+  "luminance": 0,
+  "XPmin": 0,
+  "XPmax": 0,
+  "standardTexture": true,
+  "bossProof": true,
+  "infinite": true,
+  "silkable": false,
+  "replace": false,
+  "defaultTool": "pickaxe",
+  "replaceBlockId": "Optional[ResourceKey[minecraft:block / minecraft:air]]",
+  "damageFunction": "default",
+  "denseOreGenProbability": 0.1,
+  "denseOreGenReplaceState": true,
+  "onlyValidTools": true
+}

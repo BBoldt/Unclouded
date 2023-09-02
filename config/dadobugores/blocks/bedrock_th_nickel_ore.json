@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_nickel_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Nickel Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_nickel",
+		"ore_set": [
+			"thermal:deepslate_nickel_ore",
+			"thermal:nickel_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_nickel",
+		"textureFile": "thermal:item/raw_nickel",
+		"englishName": "Regenerative Nickel Cluster"
+	}
+}

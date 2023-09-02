@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_blackstone_mm_stormyx_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 2,
+	"XPmin": 2,
+	"XPmax": 4,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Blackstone Stormyx Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/blackstone_stormyx_ore",
+	"denseOreGenTarget": "mythicmetals:blackstone_stormyx_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:blackstone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:blackstone_stormyx_ore"
+		]
+	}
+}

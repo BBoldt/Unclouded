@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_sulfur_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"XPmax": 2,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Sulfur Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_sulfur",
+		"ore_set": [
+			"thermal:sulfur_ore",
+			"thermal:deepslate_sulfur_ore",
+			"thermal:sulfur_ore_netherrack"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_sulfur",
+		"textureFile": "thermal:item/sulfur",
+		"englishName": "Regenerative Sulfur Cluster"
+	}
+}

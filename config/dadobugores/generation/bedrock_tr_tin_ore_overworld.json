@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_tr_tin_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_tr_tin_ore",
+	"chance": 2,
+	"size": 8
+}

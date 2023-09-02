@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#T#",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "create:brass_casing"
+    },
+	"T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "E": {
+      "item": "computercraft:cable"
+    }
+  },
+  "result": {
+    "item": "computercraft:wired_modem"
+  }
+}

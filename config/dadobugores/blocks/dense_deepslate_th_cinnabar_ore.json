@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_th_cinnabar_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 1,
+	"XPmin": 1,
+	"XPmax": 3,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Cinnabar Ore",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/deepslate_cinnabar_ore",
+	"denseOreGenTarget": "thermal:deepslate_cinnabar_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:deepslate_cinnabar_ore"
+		]
+	}
+}

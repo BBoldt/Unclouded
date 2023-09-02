@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mm_adamantite_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_mm_adamantite_ore",
+	"chance": 16,
+	"size": 5
+}

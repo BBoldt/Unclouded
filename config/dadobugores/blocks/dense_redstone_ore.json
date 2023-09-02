@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_redstone_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 2,
+	"XPmin": 1,
+	"XPmax": 6,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Redstone Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/redstone_ore",
+	"denseOreGenTarget": "minecraft:redstone_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:redstone_ore"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_morkite_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Morkite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_morkite",
+		"ore_set": [
+			"mythicmetals:deepslate_morkite_ore",
+			"mythicmetals:morkite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_morkite",
+		"textureFile": "mythicmetals:item/morkite",
+		"englishName": "Regenerative Morkite Cluster"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_ie_nickel_ore",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"toolLevel": 2,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Nickel Ore",
+	"damageFunction": "default",
+	"textureClone": "immersiveengineering:block/deepslate_ore_nickel",
+	"denseOreGenTarget": "immersiveengineering:deepslate_ore_nickel",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"immersiveengineering:deepslate_ore_nickel"
+		]
+	}
+}

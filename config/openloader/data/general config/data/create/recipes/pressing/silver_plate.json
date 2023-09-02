@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:silver_ingots"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:silver_plate"
+    }
+  ],
+  "time": 300
+}

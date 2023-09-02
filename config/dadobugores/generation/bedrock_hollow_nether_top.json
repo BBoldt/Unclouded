@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_hollow_nether_top",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"layer": "top",
+	"oreBlock": "dadobugores:bedrock_hollow",
+	"chance": 12,
+	"size": 50
+}

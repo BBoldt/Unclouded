@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ie_lead_ore",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Lead Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ie_lead",
+		"ore_set": [
+			"immersiveengineering:ore_lead",
+			"immersiveengineering:deepslate_ore_lead"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ie_lead",
+		"textureFile": "immersiveengineering:item/metal_raw_lead",
+		"englishName": "Regenerative Lead Cluster"
+	}
+}

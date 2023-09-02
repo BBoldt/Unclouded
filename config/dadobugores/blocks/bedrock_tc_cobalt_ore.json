@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tc_cobalt_ore",
+	"modsRequired": [
+		"minecraft",
+		"tconstruct"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Cobalt Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tc_cobalt",
+		"ore_set": [
+			"tconstruct:cobalt_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tc_cobalt",
+		"textureFile": "tconstruct:item/materials/raw_cobalt",
+		"englishName": "Regenerative Cobalt Cluster"
+	}
+}

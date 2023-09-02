@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mm_banglum_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_mm_banglum_ore",
+	"chance": 4,
+	"size": 6
+}

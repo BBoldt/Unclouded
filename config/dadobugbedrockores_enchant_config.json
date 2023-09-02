@@ -1,0 +1,32 @@
+{
+  "SHATTERING": {
+    "doTableEnchant": false,
+    "doVillagerEnchant": true,
+    "doLootEnchant": true
+  },
+  "CURSE_OF_FRACTURING": {
+    "doTableEnchant": false,
+    "doVillagerEnchant": true,
+    "doLootEnchant": true
+  },
+  "EXTRACTION": {
+    "doTableEnchant": false,
+    "doVillagerEnchant": true,
+    "doLootEnchant": true
+  },
+  "GENTLE_MINING": {
+    "doTableEnchant": true,
+    "doVillagerEnchant": true,
+    "doLootEnchant": true
+  },
+  "CURSE_OF_SHATTERING": {
+    "doTableEnchant": false,
+    "doVillagerEnchant": false,
+    "doLootEnchant": false
+  },
+  "ARCANE_EXTRACTION": {
+    "doTableEnchant": false,
+    "doVillagerEnchant": false,
+    "doLootEnchant": false
+  }
+}

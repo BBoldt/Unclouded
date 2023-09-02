@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_niter_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"XPmax": 2,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Niter Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_niter",
+		"ore_set": [
+			"thermal:deepslate_niter_ore",
+			"thermal:niter_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_niter",
+		"textureFile": "thermal:item/niter",
+		"englishName": "Regenerative Niter Cluster"
+	}
+}

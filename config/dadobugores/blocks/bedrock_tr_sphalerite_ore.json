@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_sphalerite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Sphalerite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_sphalerite",
+		"ore_set": [
+			"techreborn:sphalerite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_sphalerite",
+		"textureFile": "techreborn:item/dust/sphalerite_dust",
+		"englishName": "Regenerative Sphalerite Cluster"
+	}
+}

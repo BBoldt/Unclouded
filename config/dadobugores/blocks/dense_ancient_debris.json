@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_ancient_debris",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 3,
+	"hardness": 30.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Ancient Debris",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/ancient_debris_side",
+	"denseOreGenTarget": "minecraft:ancient_debris",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:ancient_debris",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:ancient_debris"
+		]
+	}
+}

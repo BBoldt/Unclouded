@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_xp_leak_nether_top",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"layer": "top",
+	"oreBlock": "dadobugores:bedrock_xp_leak",
+	"chance": 8,
+	"size": 7
+}

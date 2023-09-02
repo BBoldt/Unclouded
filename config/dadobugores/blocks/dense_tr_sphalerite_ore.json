@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tr_sphalerite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Sphalerite Ore",
+	"damageFunction": "default",
+	"textureClone": "techreborn:block/sphalerite_ore",
+	"denseOreGenTarget": "techreborn:sphalerite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"techreborn:sphalerite_ore"
+		]
+	}
+}

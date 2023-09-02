@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_diamond_ore_mars",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"beyond_earth:mars"
+	],
+	"oreBlock": "dadobugores:bedrock_diamond_ore",
+	"size": 7
+}

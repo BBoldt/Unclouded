@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_ie_silver_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_ie_silver_ore",
+	"chance": 6,
+	"size": 9
+}

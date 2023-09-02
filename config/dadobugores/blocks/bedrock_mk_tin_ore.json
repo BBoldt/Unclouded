@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mk_tin_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Tin Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mk_tin",
+		"ore_set": [
+			"mekanism:tin_ore",
+			"mekanism:deepslate_tin_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mk_tin",
+		"textureFile": "mekanism:item/raw_tin",
+		"englishName": "Regenerative Tin Cluster"
+	}
+}

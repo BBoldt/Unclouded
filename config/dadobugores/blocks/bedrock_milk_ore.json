@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_milk_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 1,
+	"XPmax": 9,
+	"onlyValidTools": false,
+	"englishName": "Milk Seep",
+	"bucketItem": "minecraft:milk_bucket",
+	"bucketSound": "minecraft:entity.cow.milk",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_milk",
+		"ore_set": []
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_milk",
+		"modelFile": "minecraft:item/milk_bucket",
+		"englishName": "Regenerative Milk Shake",
+		"tooltipColor": "GOLD",
+		"tooltipLocalization": "item.dadobugores.regen_joke_fluid_one.tooltip"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_ruby_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"XPmin": 2,
+	"XPmax": 6,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Ruby Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_ruby",
+		"ore_set": [
+			"techreborn:ruby_ore",
+			"techreborn:deepslate_ruby_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_ruby",
+		"textureFile": "techreborn:item/gem/ruby_gem",
+		"englishName": "Regenerative Ruby Cluster"
+	}
+}

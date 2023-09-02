@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_oil_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bituminous Bedrock",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_oil",
+		"ore_set": [
+			"thermal:oil_red_sand",
+			"thermal:oil_sand"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_oil",
+		"textureFile": "thermal:item/bitumen",
+		"englishName": "Regenerative Bitumen Cluster"
+	}
+}

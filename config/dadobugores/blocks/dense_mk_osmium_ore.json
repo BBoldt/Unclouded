@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mk_osmium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Osmium Ore",
+	"damageFunction": "default",
+	"textureClone": "mekanism:block/osmium_ore",
+	"denseOreGenTarget": "mekanism:osmium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mekanism:osmium_ore"
+		]
+	}
+}

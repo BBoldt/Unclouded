@@ -1,0 +1,24 @@
+{
+  "BEDROCK_FRACTURED": {
+    "showOre": true,
+    "hardness": 50.0,
+    "resistance": 0.5,
+    "luminance": 0,
+    "XPmin": 0,
+    "XPmax": 0,
+    "infinite": true,
+    "DurabilityMin": 2000,
+    "DurabilityMax": 2500
+  },
+  "BEDROCK_HOLLOW": {
+    "showOre": true,
+    "hardness": 50.0,
+    "resistance": 0.5,
+    "luminance": 0,
+    "XPmin": 0,
+    "XPmax": 0,
+    "infinite": true,
+    "DurabilityMin": 2000,
+    "DurabilityMax": 2500
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_nether_gold_ore_nether_top",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"layer": "top",
+	"oreBlock": "dadobugores:bedrock_nether_gold_ore",
+	"chance": 1
+}

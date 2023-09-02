@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "techreborn:refined_iron_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "techreborn:hv_cable",
+      "count": 6
+    }
+  ]
+}

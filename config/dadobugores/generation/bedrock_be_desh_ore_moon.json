@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_be_desh_ore_moon",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"beyond_earth:moon"
+	],
+	"oreBlock": "dadobugores:bedrock_be_desh_ore",
+	"chance": 14,
+	"size": 9
+}

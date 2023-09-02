@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "techreborn:carbon_mesh"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:carbon_plate"
+    }
+  ],
+  "time": 300
+}

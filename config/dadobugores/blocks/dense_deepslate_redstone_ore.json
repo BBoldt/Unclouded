@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_redstone_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 2,
+	"XPmin": 1,
+	"XPmax": 6,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Redstone Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/deepslate_redstone_ore",
+	"denseOreGenTarget": "minecraft:deepslate_redstone_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:deepslate_redstone_ore"
+		]
+	}
+}

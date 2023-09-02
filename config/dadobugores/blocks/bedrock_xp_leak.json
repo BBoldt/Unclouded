@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_xp_leak",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 25,
+	"XPmax": 60,
+	"onlyValidTools": false,
+	"englishName": "XP Leak",
+	"bottleItem": "minecraft:experience_bottle",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_xp_leak",
+		"ore_set": []
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_xp_leak",
+		"textureFile": "dadobugores:item/regenerative_xp_leak",
+		"englishName": "Leaky XP Conduit",
+		"tooltipColor": "AQUA",
+		"tooltipLocalization": "item.dadobugores.regen_xp.tooltip"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tr_sodalite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"toolLevel": 3,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Sodalite Ore",
+	"damageFunction": "default",
+	"textureClone": "techreborn:block/sodalite_ore",
+	"denseOreGenTarget": "techreborn:sodalite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:end_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"techreborn:sodalite_ore"
+		]
+	}
+}

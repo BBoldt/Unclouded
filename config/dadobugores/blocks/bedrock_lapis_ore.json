@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_lapis_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 2,
+	"XPmax": 5,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Lapis Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_lapis",
+		"ore_set": [
+			"beyond_earth:glacio_lapis_ore",
+			"minecraft:deepslate_lapis_ore",
+			"minecraft:lapis_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_lapis",
+		"modelFile": "minecraft:item/lapis_lazuli",
+		"englishName": "Regenerative Lapis Cluster"
+	}
+}

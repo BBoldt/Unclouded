@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "c:iron_blocks"
+	},
+	"result": {
+		"item": "createaddition:iron_rod",
+		"count": 18
+	}
+}

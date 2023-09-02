@@ -1,0 +1,33 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_cookie_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 1,
+	"XPmax": 9,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Cookie Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_custom_loot",
+		"core_id": "regenerative_cookie",
+		"item_set": [
+			{
+				"item": "minecraft:cookie",
+				"minCount": 1,
+				"maxCount": 4
+			}
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_cookie",
+		"modelFile": "minecraft:item/cookie",
+		"englishName": "Regenerative Cookie Cluster",
+		"tooltipColor": "GOLD",
+		"tooltipLocalization": "item.dadobugores.regen_joke_item_one.tooltip"
+	}
+}

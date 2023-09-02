@@ -1,0 +1,25 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ancient_debris_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Ancient Debris Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ancient_debris",
+		"ore_set": [
+			"minecraft:ancient_debris"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ancient_debris",
+		"modelFile": "minecraft:item/netherite_scrap",
+		"englishName": "Regenerative Ancient Debris Cluster"
+	}
+}

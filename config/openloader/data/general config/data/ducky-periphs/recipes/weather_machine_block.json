@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "SGS",
+        "POB",
+        "SRS"
+    ],
+    "key": {
+        "S": {
+            "tag": "c:iron_plates"
+        },
+        "G": {
+            "item": "create:electron_tube"
+        },
+        "P": {
+            "item": "create:propeller"
+        },
+        "B": {
+            "item": "minecraft:bucket"
+        },
+        "R": {
+            "item": "create:precision_mechanism"
+        },
+        "O": {
+            "item": "minecraft:observer"
+        }
+    },
+    "result": {
+        "item": "ducky-periphs:weather_machine_block"
+    }
+}

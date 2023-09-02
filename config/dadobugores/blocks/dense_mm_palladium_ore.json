@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_palladium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 3,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Palladium Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/palladium_ore",
+	"denseOreGenTarget": "mythicmetals:palladium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:palladium_ore"
+		]
+	}
+}

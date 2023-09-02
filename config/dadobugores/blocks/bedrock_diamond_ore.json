@@ -1,0 +1,32 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_diamond_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 3,
+	"XPmax": 7,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Diamond Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_diamond",
+		"ore_set": [
+			"undergarden:shiverstone_diamond_ore",
+			"beyond_earth:mars_diamond_ore",
+			"minecraft:deepslate_diamond_ore",
+			"undergarden:depthrock_diamond_ore",
+			"minecraft:diamond_ore",
+			"beyond_earth:venus_diamond_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_diamond",
+		"modelFile": "minecraft:item/diamond",
+		"englishName": "Regenerative Diamond Cluster"
+	}
+}

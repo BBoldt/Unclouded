@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_gold_ore_venus",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"beyond_earth:venus"
+	],
+	"oreBlock": "dadobugores:bedrock_gold_ore",
+	"chance": 7,
+	"size": 9
+}

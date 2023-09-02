@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:steel_ingots"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:steel_plate"
+    }
+  ],
+  "time": 300
+}

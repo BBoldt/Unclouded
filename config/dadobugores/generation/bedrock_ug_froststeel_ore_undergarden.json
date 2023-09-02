@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_ug_froststeel_ore_undergarden",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"undergarden:is_undergarden"
+	],
+	"oreBlock": "dadobugores:bedrock_ug_froststeel_ore",
+	"chance": 7,
+	"size": 9
+}

@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_pyrite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Pyrite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_pyrite",
+		"ore_set": [
+			"techreborn:pyrite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_pyrite",
+		"textureFile": "techreborn:item/dust/pyrite_dust",
+		"englishName": "Regenerative Pyrite Cluster"
+	}
+}

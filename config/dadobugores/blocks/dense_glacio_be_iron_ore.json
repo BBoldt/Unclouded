@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_glacio_be_iron_ore",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Glacio Iron Ore",
+	"damageFunction": "default",
+	"textureClone": "beyond_earth:block/glacio_iron_ore",
+	"denseOreGenTarget": "beyond_earth:glacio_iron_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "beyond_earth:glacio_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"beyond_earth:glacio_iron_ore"
+		]
+	}
+}

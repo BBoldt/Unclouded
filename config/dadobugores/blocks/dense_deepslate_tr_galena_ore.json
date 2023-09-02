@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_tr_galena_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"toolLevel": 2,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Galena Ore",
+	"damageFunction": "default",
+	"textureClone": "techreborn:block/deepslate_galena_ore",
+	"denseOreGenTarget": "techreborn:deepslate_galena_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"techreborn:deepslate_galena_ore"
+		]
+	}
+}

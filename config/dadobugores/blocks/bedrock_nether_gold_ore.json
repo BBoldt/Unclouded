@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_nether_gold_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmax": 1,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Nether Gold Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_nether_gold",
+		"ore_set": [
+			"minecraft:nether_gold_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_nether_gold",
+		"modelFile": "minecraft:item/gold_nugget",
+		"englishName": "Regenerative Nether Gold Cluster"
+	}
+}

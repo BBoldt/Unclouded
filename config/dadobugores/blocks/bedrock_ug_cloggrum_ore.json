@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ug_cloggrum_ore",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Cloggrum Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ug_cloggrum",
+		"ore_set": [
+			"undergarden:depthrock_cloggrum_ore",
+			"undergarden:shiverstone_cloggrum_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ug_cloggrum",
+		"textureFile": "undergarden:item/raw_cloggrum",
+		"englishName": "Regenerative Cloggrum Cluster"
+	}
+}

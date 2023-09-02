@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_end_stone_mm_starrite_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"XPmin": 3,
+	"XPmax": 6,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense End Stone Starrite Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/end_stone_starrite_ore",
+	"denseOreGenTarget": "mythicmetals:end_stone_starrite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:end_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:end_stone_starrite_ore"
+		]
+	}
+}

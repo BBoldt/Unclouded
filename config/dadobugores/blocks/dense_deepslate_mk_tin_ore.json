@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_mk_tin_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"toolLevel": 1,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Tin Ore",
+	"damageFunction": "default",
+	"textureClone": "mekanism:block/deepslate_tin_ore",
+	"denseOreGenTarget": "mekanism:deepslate_tin_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mekanism:deepslate_tin_ore"
+		]
+	}
+}

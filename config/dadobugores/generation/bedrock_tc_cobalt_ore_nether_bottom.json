@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_tc_cobalt_ore_nether_bottom",
+	"modsRequired": [
+		"minecraft",
+		"tconstruct"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_tc_cobalt_ore",
+	"size": 4
+}

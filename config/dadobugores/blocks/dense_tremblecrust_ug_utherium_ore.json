@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tremblecrust_ug_utherium_ore",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"toolLevel": 2,
+	"hardness": 7.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Tremblecrust Utherium Ore",
+	"damageFunction": "default",
+	"textureClone": "undergarden:block/tremblecrust_utherium_ore",
+	"denseOreGenTarget": "undergarden:tremblecrust_utherium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "undergarden:tremblecrust",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"undergarden:tremblecrust_utherium_ore"
+		]
+	}
+}

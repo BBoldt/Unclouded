@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_er_benitoite_ore",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"toolLevel": 0,
+	"XPmin": 3,
+	"XPmax": 5,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Benitoite Ore",
+	"damageFunction": "default",
+	"textureClone": "bigreactors:block/benitoite_ore",
+	"denseOreGenTarget": "bigreactors:benitoite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"bigreactors:benitoite_ore"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_er_yellorite_ore",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Yellorite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_er_yellorite",
+		"ore_set": [
+			"bigreactors:yellorite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_er_yellorite",
+		"textureFile": "bigreactors:item/yellorium_ingot",
+		"englishName": "Regenerative Yellorite Cluster"
+	}
+}

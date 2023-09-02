@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ug_froststeel_ore",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Froststeel Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ug_froststeel",
+		"ore_set": [
+			"undergarden:shiverstone_froststeel_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ug_froststeel",
+		"textureFile": "undergarden:item/raw_froststeel",
+		"englishName": "Regenerative Froststeel Cluster"
+	}
+}

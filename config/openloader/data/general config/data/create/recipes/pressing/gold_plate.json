@@ -1,0 +1,16 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:gold_plate"
+    }
+  ],
+  "time": 300
+}

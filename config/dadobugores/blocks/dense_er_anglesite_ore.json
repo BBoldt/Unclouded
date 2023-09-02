@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_er_anglesite_ore",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"toolLevel": 0,
+	"XPmin": 3,
+	"XPmax": 5,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Anglesite Ore",
+	"damageFunction": "default",
+	"textureClone": "bigreactors:block/anglesite_ore",
+	"denseOreGenTarget": "bigreactors:anglesite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:end_stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"bigreactors:anglesite_ore"
+		]
+	}
+}

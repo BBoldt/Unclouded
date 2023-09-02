@@ -1,0 +1,32 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_iron_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Iron Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_iron",
+		"ore_set": [
+			"undergarden:shiverstone_iron_ore",
+			"beyond_earth:glacio_iron_ore",
+			"beyond_earth:mercury_iron_ore",
+			"beyond_earth:mars_iron_ore",
+			"undergarden:depthrock_iron_ore",
+			"minecraft:iron_ore",
+			"minecraft:deepslate_iron_ore",
+			"beyond_earth:moon_iron_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_iron",
+		"modelFile": "minecraft:item/raw_iron",
+		"englishName": "Regenerative Iron Cluster"
+	}
+}

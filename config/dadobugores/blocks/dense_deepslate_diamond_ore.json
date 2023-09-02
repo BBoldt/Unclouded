@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_diamond_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 2,
+	"XPmin": 3,
+	"XPmax": 7,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Diamond Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/deepslate_diamond_ore",
+	"denseOreGenTarget": "minecraft:deepslate_diamond_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:deepslate_diamond_ore"
+		]
+	}
+}

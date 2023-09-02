@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_unobtainium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"XPmin": 4,
+	"XPmax": 7,
+	"luminance": 1,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Unobtainium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_unobtainium",
+		"ore_set": [
+			"mythicmetals:unobtainium_ore",
+			"mythicmetals:deepslate_unobtainium_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_unobtainium",
+		"textureFile": "mythicmetals:item/unobtainium",
+		"englishName": "Regenerative Unobtainium Cluster"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ug_regalium_ore",
+	"modsRequired": [
+		"minecraft",
+		"undergarden"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Regalium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ug_regalium",
+		"ore_set": [
+			"undergarden:shiverstone_regalium_ore",
+			"undergarden:depthrock_regalium_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ug_regalium",
+		"textureFile": "undergarden:item/regalium_crystal",
+		"englishName": "Regenerative Regalium Cluster"
+	}
+}

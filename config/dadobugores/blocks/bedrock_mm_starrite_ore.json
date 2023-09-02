@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_starrite_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"XPmin": 3,
+	"XPmax": 6,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Starrite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_starrite",
+		"ore_set": [
+			"mythicmetals:end_stone_starrite_ore",
+			"mythicmetals:starrite_ore",
+			"mythicmetals:calcite_starrite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_starrite",
+		"textureFile": "mythicmetals:item/starrite",
+		"englishName": "Regenerative Starrite Cluster"
+	}
+}

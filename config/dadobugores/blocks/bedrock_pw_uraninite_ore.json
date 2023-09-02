@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_pw_uraninite_ore",
+	"modsRequired": [
+		"minecraft",
+		"powah"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Uraninite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_pw_uraninite",
+		"ore_set": [
+			"powah:uraninite_ore_poor",
+			"powah:uraninite_ore_dense",
+			"powah:uraninite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_pw_uraninite",
+		"textureFile": "powah:item/uraninite_raw",
+		"englishName": "Regenerative Uraninite Cluster"
+	}
+}

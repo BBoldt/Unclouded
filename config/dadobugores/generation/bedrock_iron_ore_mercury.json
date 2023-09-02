@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_iron_ore_mercury",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"beyond_earth:mercury"
+	],
+	"oreBlock": "dadobugores:bedrock_iron_ore",
+	"chance": 4,
+	"size": 1
+}

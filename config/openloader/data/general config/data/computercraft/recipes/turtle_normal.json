@@ -1,0 +1,18 @@
+{
+    "type": "computercraft:turtle",
+    "pattern": [
+        "ITI",
+        "WCH",
+        " P "
+    ],
+    "key": {
+        "I": { "tag": "c:iron_plates" },
+        "C": { "item": "computercraft:computer_normal" },
+        "T": { "tag": "create:toolboxes" },
+		"W": { "item": "create:whisk" },
+		"H": { "item": "create:brass_hand" },
+		"P": { "item": "create:propeller" }
+    },
+    "family": "normal",
+    "result": { "item": "computercraft:turtle_normal" }
+}

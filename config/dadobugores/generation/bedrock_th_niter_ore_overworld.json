@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_th_niter_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_th_niter_ore",
+	"chance": 9,
+	"size": 7
+}

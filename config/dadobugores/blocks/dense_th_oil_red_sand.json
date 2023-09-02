@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_th_oil_red_sand",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 0,
+	"hardness": 0.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Bituminous Red Sand",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/oil_red_sand",
+	"denseOreGenTarget": "thermal:oil_red_sand",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:red_sand",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:oil_red_sand"
+		]
+	}
+}

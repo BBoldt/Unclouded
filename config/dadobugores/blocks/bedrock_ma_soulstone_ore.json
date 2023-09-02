@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ma_soulstone_ore",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Soulstone Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ma_soulstone",
+		"ore_set": [
+			"malum:deepslate_soulstone_ore",
+			"malum:soulstone_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ma_soulstone",
+		"textureFile": "malum:item/raw_soulstone",
+		"englishName": "Regenerative Soulstone Cluster"
+	}
+}

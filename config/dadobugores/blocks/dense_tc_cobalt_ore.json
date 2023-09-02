@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tc_cobalt_ore",
+	"modsRequired": [
+		"minecraft",
+		"tconstruct"
+	],
+	"toolLevel": 2,
+	"hardness": 10.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Cobalt Ore",
+	"damageFunction": "default",
+	"textureClone": "tconstruct:block/cobalt_ore",
+	"denseOreGenTarget": "tconstruct:cobalt_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"tconstruct:cobalt_ore"
+		]
+	}
+}

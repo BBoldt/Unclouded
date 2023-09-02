@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_redstone_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 1,
+	"XPmax": 6,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Redstone Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_redstone",
+		"ore_set": [
+			"minecraft:redstone_ore",
+			"minecraft:deepslate_redstone_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_redstone",
+		"modelFile": "minecraft:item/redstone",
+		"englishName": "Regenerative Redstone Cluster"
+	}
+}

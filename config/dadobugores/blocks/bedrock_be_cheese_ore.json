@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_be_cheese_ore",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Cheese Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_be_cheese",
+		"ore_set": [
+			"beyond_earth:moon_cheese_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_be_cheese",
+		"textureFile": "beyond_earth:item/item_cheese",
+		"englishName": "Regenerative Cheese Cluster"
+	}
+}

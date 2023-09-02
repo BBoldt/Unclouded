@@ -1,0 +1,17 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluid": "techreborn:nitro_diesel",
+      	"amount": 81000
+	},
+	"burnTime": 133333,
+	"superheated": true,
+	"fabric:load_conditions": [
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": [
+				"techreborn"
+			]
+		}
+	]
+}

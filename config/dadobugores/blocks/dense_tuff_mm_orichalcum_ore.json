@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tuff_mm_orichalcum_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 3,
+	"XPmin": 3,
+	"XPmax": 5,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Tuff Orichalcum Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/tuff_orichalcum_ore",
+	"denseOreGenTarget": "mythicmetals:tuff_orichalcum_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:tuff",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:tuff_orichalcum_ore"
+		]
+	}
+}

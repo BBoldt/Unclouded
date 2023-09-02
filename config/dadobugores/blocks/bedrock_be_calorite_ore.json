@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_be_calorite_ore",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Calorite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_be_calorite",
+		"ore_set": [
+			"beyond_earth:venus_calorite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_be_calorite",
+		"textureFile": "beyond_earth:item/raw_calorite",
+		"englishName": "Regenerative Calorite Cluster"
+	}
+}

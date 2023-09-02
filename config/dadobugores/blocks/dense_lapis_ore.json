@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_lapis_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 1,
+	"XPmin": 2,
+	"XPmax": 5,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Lapis Lazuli Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/lapis_ore",
+	"denseOreGenTarget": "minecraft:lapis_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:lapis_ore"
+		]
+	}
+}

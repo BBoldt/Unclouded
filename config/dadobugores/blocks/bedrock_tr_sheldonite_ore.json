@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_sheldonite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Sheldonite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_sheldonite",
+		"ore_set": [
+			"techreborn:sheldonite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_sheldonite",
+		"textureFile": "techreborn:item/dust/nickel_dust",
+		"englishName": "Regenerative Sheldonite Cluster"
+	}
+}

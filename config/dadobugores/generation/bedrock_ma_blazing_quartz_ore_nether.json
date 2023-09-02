@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_ma_blazing_quartz_ore_nether",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_ma_blazing_quartz_ore",
+	"chance": 2,
+	"size": 8
+}

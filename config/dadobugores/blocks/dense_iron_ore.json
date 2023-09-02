@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_iron_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Iron Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/iron_ore",
+	"denseOreGenTarget": "minecraft:iron_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:iron_ore"
+		]
+	}
+}

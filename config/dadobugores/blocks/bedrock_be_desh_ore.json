@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_be_desh_ore",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Desh Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_be_desh",
+		"ore_set": [
+			"beyond_earth:moon_desh_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_be_desh",
+		"textureFile": "beyond_earth:item/raw_desh",
+		"englishName": "Regenerative Desh Cluster"
+	}
+}

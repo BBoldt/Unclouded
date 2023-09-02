@@ -1,0 +1,15 @@
+{
+    "type": "computercraft:computer_upgrade",
+    "pattern": [
+        "BBB",
+        "#C#",
+        "# #"
+    ],
+    "key": {
+        "#": { "tag": "c:gold_plates" },
+        "C": { "item": "computercraft:computer_normal"},
+        "B": { "item": "create:brass_casing" }
+    },
+    "family": "advanced",
+    "result": { "item": "computercraft:computer_advanced" }
+}

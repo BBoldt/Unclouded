@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_unobtainium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"XPmin": 4,
+	"XPmax": 7,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Unobtainium Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/unobtainium_ore",
+	"denseOreGenTarget": "mythicmetals:unobtainium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:unobtainium_ore"
+		]
+	}
+}

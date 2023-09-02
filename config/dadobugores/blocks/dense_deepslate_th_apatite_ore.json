@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_th_apatite_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 1,
+	"XPmax": 2,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Apatite Ore",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/deepslate_apatite_ore",
+	"denseOreGenTarget": "thermal:deepslate_apatite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:deepslate_apatite_ore"
+		]
+	}
+}

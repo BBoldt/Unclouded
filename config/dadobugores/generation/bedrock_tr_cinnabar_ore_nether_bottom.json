@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_tr_cinnabar_ore_nether_bottom",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_tr_cinnabar_ore",
+	"chance": 11,
+	"size": 6
+}

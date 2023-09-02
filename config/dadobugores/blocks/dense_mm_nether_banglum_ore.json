@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_nether_banglum_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Nether Banglum Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/nether_banglum_ore",
+	"denseOreGenTarget": "mythicmetals:nether_banglum_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:nether_banglum_ore"
+		]
+	}
+}

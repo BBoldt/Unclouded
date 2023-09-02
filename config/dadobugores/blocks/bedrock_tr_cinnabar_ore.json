@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_cinnabar_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Cinnabar Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_cinnabar",
+		"ore_set": [
+			"techreborn:cinnabar_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_cinnabar",
+		"textureFile": "techreborn:item/dust/cinnabar_dust",
+		"englishName": "Regenerative Cinnabar Cluster"
+	}
+}

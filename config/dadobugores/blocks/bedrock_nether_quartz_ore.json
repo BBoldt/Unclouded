@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_nether_quartz_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 2,
+	"XPmax": 5,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Nether Quartz Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_nether_quartz",
+		"ore_set": [
+			"minecraft:nether_quartz_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_nether_quartz",
+		"modelFile": "minecraft:item/quartz",
+		"englishName": "Regenerative Nether Quartz Cluster"
+	}
+}

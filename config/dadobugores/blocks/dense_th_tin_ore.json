@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_th_tin_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Tin Ore",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/tin_ore",
+	"denseOreGenTarget": "thermal:tin_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:tin_ore"
+		]
+	}
+}

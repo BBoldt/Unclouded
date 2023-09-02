@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_ic_lead_ore",
+	"modsRequired": [
+		"minecraft",
+		"ftbic"
+	],
+	"toolLevel": 0,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Lead Ore",
+	"damageFunction": "default",
+	"textureClone": "ftbic:block/deepslate_lead_ore",
+	"denseOreGenTarget": "ftbic:deepslate_lead_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"ftbic:deepslate_lead_ore"
+		]
+	}
+}

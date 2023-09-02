@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#T#",
+    "#T#",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "create:brass_casing"
+    },
+	"T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "computercraft:wireless_modem_advanced"
+  }
+}

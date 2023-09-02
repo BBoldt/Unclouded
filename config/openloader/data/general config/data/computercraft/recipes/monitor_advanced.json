@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "CIC",
+    "EEE"
+  ],
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "I": {
+      "tag": "c:gold_plates"
+    },
+	"E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "computercraft:monitor_advanced",
+    "count": 4
+  }
+}

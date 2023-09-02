@@ -1,0 +1,17 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_emerald_ore_overworld",
+	"modsRequired": [
+		"minecraft"
+	],
+	"biomeList": [
+		"minecraft:grove"
+	],
+	"biomeTagList": [
+		"minecraft:is_mountain",
+		"minecraft:is_hill"
+	],
+	"oreBlock": "dadobugores:bedrock_emerald_ore",
+	"chance": 2,
+	"size": 3
+}

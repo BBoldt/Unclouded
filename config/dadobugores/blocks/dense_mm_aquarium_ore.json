@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_aquarium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Aquarium Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/aquarium_ore",
+	"denseOreGenTarget": "mythicmetals:aquarium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:aquarium_ore"
+		]
+	}
+}

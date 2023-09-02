@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_pw_uraninite_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"powah"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_pw_uraninite_ore",
+	"chance": 4,
+	"size": 5
+}

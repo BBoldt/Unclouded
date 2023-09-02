@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mm_midas_gold_ore_nether_bottom",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_mm_midas_gold_ore",
+	"chance": 4,
+	"size": 7
+}

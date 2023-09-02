@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ic_tin_ore",
+	"modsRequired": [
+		"minecraft",
+		"ftbic"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Tin Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ic_tin",
+		"ore_set": [
+			"ftbic:tin_ore",
+			"ftbic:deepslate_tin_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ic_tin",
+		"textureFile": "ftbic:item/tin_chunk",
+		"englishName": "Regenerative Tin Cluster"
+	}
+}

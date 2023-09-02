@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mk_fluorite_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Fluorite Ore",
+	"damageFunction": "default",
+	"textureClone": "mekanism:block/fluorite_ore",
+	"denseOreGenTarget": "mekanism:fluorite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mekanism:fluorite_ore"
+		]
+	}
+}

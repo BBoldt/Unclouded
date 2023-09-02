@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_smooth_basalt_mm_orichalcum_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 3,
+	"XPmin": 3,
+	"XPmax": 5,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Smooth Basalt Orichalcum Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/smooth_basalt_orichalcum_ore",
+	"denseOreGenTarget": "mythicmetals:smooth_basalt_orichalcum_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:smooth_basalt",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:smooth_basalt_orichalcum_ore"
+		]
+	}
+}

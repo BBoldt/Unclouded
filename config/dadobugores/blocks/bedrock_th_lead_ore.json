@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_lead_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Lead Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_lead",
+		"ore_set": [
+			"thermal:lead_ore",
+			"thermal:deepslate_lead_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_lead",
+		"textureFile": "thermal:item/raw_lead",
+		"englishName": "Regenerative Lead Cluster"
+	}
+}

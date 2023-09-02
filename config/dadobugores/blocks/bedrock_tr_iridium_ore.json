@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_iridium_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Iridium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_iridium",
+		"ore_set": [
+			"techreborn:iridium_ore",
+			"techreborn:deepslate_iridium_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_iridium",
+		"textureFile": "techreborn:item/rawmetal/raw_iridium",
+		"englishName": "Regenerative Iridium Cluster"
+	}
+}

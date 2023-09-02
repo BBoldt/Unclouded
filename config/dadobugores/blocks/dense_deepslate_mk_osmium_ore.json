@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_mk_osmium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"toolLevel": 1,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Osmium Ore",
+	"damageFunction": "default",
+	"textureClone": "mekanism:block/deepslate_osmium_ore",
+	"denseOreGenTarget": "mekanism:deepslate_osmium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mekanism:deepslate_osmium_ore"
+		]
+	}
+}

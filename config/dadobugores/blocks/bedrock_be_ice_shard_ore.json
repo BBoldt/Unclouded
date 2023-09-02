@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_be_ice_shard_ore",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"XPmax": 2,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Ice Shard Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_be_ice_shard",
+		"ore_set": [
+			"beyond_earth:glacio_ice_shard_ore",
+			"beyond_earth:moon_ice_shard_ore",
+			"beyond_earth:mars_ice_shard_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_be_ice_shard",
+		"textureFile": "beyond_earth:item/ice_shard",
+		"englishName": "Regenerative Ice Shard Cluster"
+	}
+}

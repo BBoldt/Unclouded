@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:red_garnet_dusts"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:red_garnet_plate"
+    }
+  ],
+  "time": 300
+}

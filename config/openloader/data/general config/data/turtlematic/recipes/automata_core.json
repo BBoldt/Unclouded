@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "turtlematic",
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "tag": "c:diamonds"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "S": {
+      "item": "turtlematic:filled_soul_vial"
+    }
+  },
+  "pattern": [
+    " S ",
+    "DPD",
+    " C "
+  ],
+  "result": {
+    "item": "turtlematic:automata_core"
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_osmium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Osmium Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/osmium_ore",
+	"denseOreGenTarget": "mythicmetals:osmium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:osmium_ore"
+		]
+	}
+}

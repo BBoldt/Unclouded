@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_stormyx_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 2,
+	"XPmin": 2,
+	"XPmax": 4,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Stormyx Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/stormyx_ore",
+	"denseOreGenTarget": "mythicmetals:stormyx_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:stormyx_ore"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:emerald_dusts"
+    }
+  ],
+  "power": 10,
+  "results": [
+    {
+      "item": "techreborn:emerald_plate"
+    }
+  ],
+  "time": 300
+}

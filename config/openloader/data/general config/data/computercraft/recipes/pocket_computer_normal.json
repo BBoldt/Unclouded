@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "IAI",
+    "IEI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:iron_plates"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+	"A": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "computercraft:pocket_computer_normal"
+  }
+}

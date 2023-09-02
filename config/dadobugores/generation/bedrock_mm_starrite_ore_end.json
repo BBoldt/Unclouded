@@ -1,0 +1,19 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mm_starrite_ore_end",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_end"
+	],
+	"layer": "all",
+	"targetBlock": "minecraft:end_stone",
+	"oreBlock": "dadobugores:bedrock_mm_starrite_ore",
+	"replaceWithBlock_State": false,
+	"chance": -1,
+	"count": 1,
+	"size": 7
+}

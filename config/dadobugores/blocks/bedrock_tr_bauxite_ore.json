@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_bauxite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Bauxite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_bauxite",
+		"ore_set": [
+			"techreborn:bauxite_ore",
+			"techreborn:deepslate_bauxite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_bauxite",
+		"textureFile": "techreborn:item/dust/aluminum_dust",
+		"englishName": "Regenerative Bauxite Cluster"
+	}
+}

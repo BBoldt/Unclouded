@@ -1,0 +1,26 @@
+{
+	"type": "regenerative_block",
+	"id": "native_gold_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"durabilityMin": 50,
+	"durabilityMax": 200,
+	"hardness": 1.0,
+	"onlyValidTools": false,
+	"englishName": "Native Gold Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_custom_loot",
+		"silkable": true,
+		"item_set": [
+			{
+				"item": "minecraft:gold_nugget",
+				"minCount": 1,
+				"maxCount": 5
+			}
+		]
+	}
+}

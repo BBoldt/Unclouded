@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_gold_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Gold Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_gold",
+		"ore_set": [
+			"minecraft:gold_ore",
+			"beyond_earth:venus_gold_ore",
+			"undergarden:depthrock_gold_ore",
+			"minecraft:deepslate_gold_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_gold",
+		"modelFile": "minecraft:item/raw_gold",
+		"englishName": "Regenerative Gold Cluster"
+	}
+}

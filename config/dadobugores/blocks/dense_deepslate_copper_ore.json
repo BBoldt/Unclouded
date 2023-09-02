@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_copper_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"toolLevel": 1,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Copper Ore",
+	"damageFunction": "default",
+	"textureClone": "minecraft:block/deepslate_copper_ore",
+	"denseOreGenTarget": "minecraft:deepslate_copper_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"minecraft:deepslate_copper_ore"
+		]
+	}
+}

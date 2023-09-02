@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_cr_zinc_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"create"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_cr_zinc_ore",
+	"chance": 3,
+	"size": 12
+}

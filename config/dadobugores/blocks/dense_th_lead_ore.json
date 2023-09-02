@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_th_lead_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Lead Ore",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/lead_ore",
+	"denseOreGenTarget": "thermal:lead_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:lead_ore"
+		]
+	}
+}

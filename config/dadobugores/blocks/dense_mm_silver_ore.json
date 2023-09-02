@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_mm_silver_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 1,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Silver Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/silver_ore",
+	"denseOreGenTarget": "mythicmetals:silver_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:silver_ore"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:tin_ingots"
+    }
+  ],
+  "results": [
+    {
+      "item": "techreborn:tin_cable",
+      "count": 6
+    }
+  ]
+}

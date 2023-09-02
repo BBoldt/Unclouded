@@ -1,0 +1,10 @@
+{
+  "layer": "bottom",
+  "targetBlock": "minecraft:bedrock",
+  "targetTag": "",
+  "oreBlock": "minecraft:air",
+  "replaceWithBlock_State": true,
+  "chance": 10,
+  "count": -1,
+  "size": 10
+}

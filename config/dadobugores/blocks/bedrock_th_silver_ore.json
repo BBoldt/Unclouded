@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_silver_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Silver Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_silver",
+		"ore_set": [
+			"thermal:silver_ore",
+			"thermal:deepslate_silver_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_silver",
+		"textureFile": "thermal:item/raw_silver",
+		"englishName": "Regenerative Silver Cluster"
+	}
+}

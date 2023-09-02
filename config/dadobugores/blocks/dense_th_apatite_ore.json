@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_th_apatite_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"toolLevel": 1,
+	"XPmax": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Apatite Ore",
+	"damageFunction": "default",
+	"textureClone": "thermal:block/apatite_ore",
+	"denseOreGenTarget": "thermal:apatite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"thermal:apatite_ore"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_ie_nickel_ore",
+	"modsRequired": [
+		"minecraft",
+		"immersiveengineering"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Nickel Ore",
+	"damageFunction": "default",
+	"textureClone": "immersiveengineering:block/ore_nickel",
+	"denseOreGenTarget": "immersiveengineering:ore_nickel",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:stone",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"immersiveengineering:ore_nickel"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_tr_pyrite_ore_nether_bottom",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_tr_pyrite_ore",
+	"size": 6
+}

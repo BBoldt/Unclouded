@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_mm_stormyx_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"XPmin": 2,
+	"XPmax": 4,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Stormyx Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_mm_stormyx",
+		"ore_set": [
+			"mythicmetals:blackstone_stormyx_ore",
+			"mythicmetals:stormyx_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_mm_stormyx",
+		"textureFile": "mythicmetals:item/raw_ore/raw_stormyx",
+		"englishName": "Regenerative Stormyx Cluster"
+	}
+}

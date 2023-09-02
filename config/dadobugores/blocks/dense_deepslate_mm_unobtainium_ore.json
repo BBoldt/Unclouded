@@ -1,0 +1,30 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_mm_unobtainium_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"XPmin": 4,
+	"XPmax": 7,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Unobtainium Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/deepslate_unobtainium_ore",
+	"denseOreGenTarget": "mythicmetals:deepslate_unobtainium_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:deepslate_unobtainium_ore"
+		]
+	}
+}

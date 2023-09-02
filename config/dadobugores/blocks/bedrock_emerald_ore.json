@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_emerald_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 3,
+	"XPmax": 7,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Emerald Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_emerald",
+		"ore_set": [
+			"minecraft:emerald_ore",
+			"minecraft:deepslate_emerald_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_emerald",
+		"modelFile": "minecraft:item/emerald",
+		"englishName": "Regenerative Emerald Cluster"
+	}
+}

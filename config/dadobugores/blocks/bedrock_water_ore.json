@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_water_ore",
+	"modsRequired": [
+		"minecraft"
+	],
+	"XPmin": 1,
+	"XPmax": 5,
+	"standardTexture": false,
+	"onlyValidTools": false,
+	"englishName": "Water Seep",
+	"fluid": "minecraft:water",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_water",
+		"ore_set": []
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_water",
+		"modelFile": "minecraft:item/water_bucket",
+		"englishName": "Regenerative Water Shale",
+		"tooltipColor": "GREEN",
+		"tooltipLocalization": "item.dadobugores.regen_fluid.tooltip"
+	}
+}

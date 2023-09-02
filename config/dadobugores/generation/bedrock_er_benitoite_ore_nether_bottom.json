@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_er_benitoite_ore_nether_bottom",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_nether"
+	],
+	"oreBlock": "dadobugores:bedrock_er_benitoite_ore",
+	"size": 8
+}

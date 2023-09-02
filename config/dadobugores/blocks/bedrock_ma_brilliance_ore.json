@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ma_brilliance_ore",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"XPmin": 14,
+	"XPmax": 18,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Brilliance Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ma_brilliance",
+		"ore_set": [
+			"malum:brilliant_stone",
+			"malum:brilliant_deepslate"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ma_brilliance",
+		"textureFile": "malum:item/cluster_of_brilliance",
+		"englishName": "Regenerative Brilliance Cluster"
+	}
+}

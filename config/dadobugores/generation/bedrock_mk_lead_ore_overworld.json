@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mk_lead_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_mk_lead_ore",
+	"chance": 4,
+	"size": 8
+}

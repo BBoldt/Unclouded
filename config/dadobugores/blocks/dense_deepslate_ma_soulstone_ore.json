@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_deepslate_ma_soulstone_ore",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"toolLevel": 0,
+	"hardness": 4.5,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Deepslate Soulstone Ore",
+	"damageFunction": "default",
+	"textureClone": "malum:block/deepslate_soulstone_ore",
+	"denseOreGenTarget": "malum:deepslate_soulstone_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:deepslate",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"malum:deepslate_soulstone_ore"
+		]
+	}
+}

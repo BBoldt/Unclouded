@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_calcite_mm_starrite_ore",
+	"modsRequired": [
+		"minecraft",
+		"mythicmetals"
+	],
+	"toolLevel": 3,
+	"XPmin": 3,
+	"XPmax": 6,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Calcite Starrite Ore",
+	"damageFunction": "default",
+	"textureClone": "mythicmetals:block/calcite_starrite_ore",
+	"denseOreGenTarget": "mythicmetals:calcite_starrite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:calcite",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"mythicmetals:calcite_starrite_ore"
+		]
+	}
+}

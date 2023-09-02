@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_th_sulfur_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_th_sulfur_ore",
+	"chance": 9,
+	"size": 7
+}

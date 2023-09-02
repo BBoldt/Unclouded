@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_er_anglesite_ore",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"XPmin": 2,
+	"XPmax": 5,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Anglesite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_er_anglesite",
+		"ore_set": [
+			"bigreactors:anglesite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_er_anglesite",
+		"textureFile": "bigreactors:item/anglesite_crystal",
+		"englishName": "Regenerative Anglesite Cluster"
+	}
+}

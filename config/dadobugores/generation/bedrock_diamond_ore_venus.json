@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_diamond_ore_venus",
+	"modsRequired": [
+		"minecraft",
+		"beyond_earth"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"beyond_earth:venus"
+	],
+	"oreBlock": "dadobugores:bedrock_diamond_ore",
+	"size": 7
+}

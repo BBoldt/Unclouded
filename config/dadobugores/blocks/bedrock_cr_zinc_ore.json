@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_cr_zinc_ore",
+	"modsRequired": [
+		"minecraft",
+		"create"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Zinc Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_cr_zinc",
+		"ore_set": [
+			"create:deepslate_zinc_ore",
+			"create:zinc_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_cr_zinc",
+		"textureFile": "create:item/raw_zinc",
+		"englishName": "Regenerative Zinc Cluster"
+	}
+}

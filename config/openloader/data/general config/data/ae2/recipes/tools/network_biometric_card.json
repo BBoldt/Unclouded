@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "ae2:engineering_processor"
+    },
+    "b": {
+      "tag": "c:iron_ingots"
+    },
+    "c": {
+      "tag": "c:gold_ingots"
+    },
+    "d": {
+      "tag": "c:redstone_dusts"
+    }
+  },
+  "pattern": [
+    "abb",
+    "cdc"
+  ],
+  "result": {
+    "item": "ae2:biometric_card"
+  }
+}

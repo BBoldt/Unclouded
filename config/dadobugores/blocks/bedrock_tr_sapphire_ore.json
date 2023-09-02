@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_tr_sapphire_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"XPmin": 2,
+	"XPmax": 6,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Sapphire Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_tr_sapphire",
+		"ore_set": [
+			"techreborn:sapphire_ore",
+			"techreborn:deepslate_sapphire_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_tr_sapphire",
+		"textureFile": "techreborn:item/gem/sapphire_gem",
+		"englishName": "Regenerative Sapphire Cluster"
+	}
+}

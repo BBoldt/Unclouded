@@ -1,0 +1,14 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_mk_uranium_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"mekanism"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_mk_uranium_ore",
+	"size": 8
+}

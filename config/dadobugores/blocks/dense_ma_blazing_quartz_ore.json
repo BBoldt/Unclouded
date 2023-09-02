@@ -1,0 +1,31 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_ma_blazing_quartz_ore",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"toolLevel": 0,
+	"XPmin": 4,
+	"XPmax": 7,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Blazing Quartz Ore",
+	"damageFunction": "default",
+	"textureClone": "malum:block/blazing_quartz_ore",
+	"denseOreGenTarget": "malum:blazing_quartz_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"malum:blazing_quartz_ore"
+		]
+	}
+}

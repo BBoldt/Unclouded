@@ -1,0 +1,29 @@
+{
+	"type": "regenerative_block",
+	"id": "dense_tr_pyrite_ore",
+	"modsRequired": [
+		"minecraft",
+		"techreborn"
+	],
+	"toolLevel": 2,
+	"hardness": 3.0,
+	"luminance": 2,
+	"standardTexture": false,
+	"infinite": false,
+	"silkable": true,
+	"replace": true,
+	"onlyValidTools": false,
+	"englishName": "Dense Pyrite Ore",
+	"damageFunction": "default",
+	"textureClone": "techreborn:block/pyrite_ore",
+	"denseOreGenTarget": "techreborn:pyrite_ore",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:netherrack",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"silkable": true,
+		"ore_set": [
+			"techreborn:pyrite_ore"
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_er_benitoite_ore",
+	"modsRequired": [
+		"minecraft",
+		"bigreactors"
+	],
+	"XPmin": 2,
+	"XPmax": 5,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Benitoite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_er_benitoite",
+		"ore_set": [
+			"bigreactors:benitoite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_er_benitoite",
+		"textureFile": "bigreactors:item/benitoite_crystal",
+		"englishName": "Regenerative Benitoite Cluster"
+	}
+}

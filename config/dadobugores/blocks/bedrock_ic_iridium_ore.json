@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ic_iridium_ore",
+	"modsRequired": [
+		"minecraft",
+		"ftbic"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Iridium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ic_iridium",
+		"ore_set": [
+			"ftbic:iridium_ore",
+			"ftbic:deepslate_iridium_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ic_iridium",
+		"textureFile": "ftbic:item/iridium_chunk",
+		"englishName": "Regenerative Iridium Cluster"
+	}
+}

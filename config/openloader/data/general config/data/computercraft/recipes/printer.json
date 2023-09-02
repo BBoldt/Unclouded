@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#P#",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "tag": "c:dyes"
+    }
+  },
+  "result": {
+    "item": "computercraft:printer"
+  }
+}

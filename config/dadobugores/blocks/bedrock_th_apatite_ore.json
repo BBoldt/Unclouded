@@ -1,0 +1,28 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_th_apatite_ore",
+	"modsRequired": [
+		"minecraft",
+		"thermal"
+	],
+	"XPmax": 2,
+	"onlyValidTools": false,
+	"englishName": "Bedrock Apatite Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_th_apatite",
+		"ore_set": [
+			"thermal:apatite_ore",
+			"thermal:deepslate_apatite_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_th_apatite",
+		"textureFile": "thermal:item/apatite",
+		"englishName": "Regenerative Apatite Cluster"
+	}
+}

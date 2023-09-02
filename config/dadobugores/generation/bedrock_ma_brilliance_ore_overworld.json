@@ -1,0 +1,15 @@
+{
+	"type": "propagator_based_gen",
+	"id": "bedrock_ma_brilliance_ore_overworld",
+	"modsRequired": [
+		"minecraft",
+		"malum"
+	],
+	"biomeList": [],
+	"biomeTagList": [
+		"minecraft:is_overworld"
+	],
+	"oreBlock": "dadobugores:bedrock_ma_brilliance_ore",
+	"chance": 15,
+	"size": 6
+}

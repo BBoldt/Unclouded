@@ -1,0 +1,27 @@
+{
+	"type": "regenerative_block",
+	"id": "bedrock_ic_uranium_ore",
+	"modsRequired": [
+		"minecraft",
+		"ftbic"
+	],
+	"onlyValidTools": false,
+	"englishName": "Bedrock Uranium Ore",
+	"damageFunction": "default",
+	"denseOreGenReplaceState": false,
+	"replaceBlockId": "minecraft:bedrock",
+	"lootConfig": {
+		"type": "regenerative_ore_loot",
+		"core_id": "regenerative_ic_uranium",
+		"ore_set": [
+			"ftbic:deepslate_uranium_ore",
+			"ftbic:uranium_ore"
+		]
+	},
+	"coreConfig": {
+		"type": "regenerative_core",
+		"id": "regenerative_ic_uranium",
+		"textureFile": "ftbic:item/uranium_chunk",
+		"englishName": "Regenerative Uranium Cluster"
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "ae2:memory_cards"
+    },
+    {
+      "tag": "c:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "ae2:memory_card_lime"
+  }
+}
